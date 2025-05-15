@@ -245,24 +245,24 @@
                 "disable_bottom_spacing": false
             }
         },
-        "166237435211863a49": {
-            "type": "background-video",
-            "disabled": true,
-            "settings": {
-                "desktop_height": "desktop-height-650",
-                "mobile_height": "mobile-height-450",
-                "full_width": true,
-                "subheading": "",
-                "heading": "",
-                "text": "",
-                "lightbox_button": true,
-                "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-                "video_hosted": "shopify:\/\/files\/videos\/super-patch-explain-video.mp4",
-                "overlay_opacity": 0,
-                "disable_top_spacing": true,
-                "disable_bottom_spacing": true
-            }
-        },
+        // "166237435211863a49": {
+        //     "type": "background-video",
+        //     "disabled": true,
+        //     "settings": {
+        //         "desktop_height": "desktop-height-650",
+        //         "mobile_height": "mobile-height-450",
+        //         "full_width": true,
+        //         "subheading": "",
+        //         "heading": "",
+        //         "text": "",
+        //         "lightbox_button": true,
+        //         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        //         "video_hosted": "shopify:\/\/files\/videos\/super-patch-explain-video.mp4",
+        //         "overlay_opacity": 0,
+        //         "disable_top_spacing": true,
+        //         "disable_bottom_spacing": true
+        //     }
+        // },
         "1663667029efc274af": {
             "type": "collapsible-content",
             "blocks": {
@@ -500,7 +500,7 @@
         "16623877721f33fb14",
         "16623743398765981b",
         "16623873609e87da8b",
-        "166237435211863a49",
+        // "166237435211863a49",
         "1663667029efc274af",
         "1663667027ccd68a19",
         "166366868377cd57e4",
