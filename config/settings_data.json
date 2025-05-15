@@ -25,7 +25,7 @@
         "predictive_search_enabled": false,
         "email_terms_conditions_enable": true,
         "lazy_loading": false,
-        "favicon": "shopify:\/\/shop_images\/SuperPatch_Favicon-300x300.png",
+        "favicon": "",
         "sections": {
             "announcement-bar": {
                 "type": "announcement-bar",
@@ -89,7 +89,7 @@
                     "mobile_secondary_menu": "",
                     "mobile_promo_heading": "Alexandre Vauthier A\/W 22 Haute Couture",
                     "mobile_promo_link_label": "Shop",
-                    "mobile_promo_link": "shopify:\/\/collections\/all"
+                    "mobile_promo_link": ""
                 }
             },
             "footer": {
@@ -250,7 +250,7 @@
                         "mobile_secondary_menu": "",
                         "mobile_promo_heading": "Alexandre Vauthier A\/W 22 Haute Couture",
                         "mobile_promo_link_label": "Shop",
-                        "mobile_promo_link": "shopify:\/\/collections\/all",
+                        "mobile_promo_link": "",
                         "show_language_switcher": true,
                         "show_currency_switcher": true
                     }
@@ -425,20 +425,20 @@
                         "c947d47d-abab-4f58-b89e-58ad729f6986"
                     ],
                     "settings": {
-                        "logo": "shopify:\/\/shop_images\/logo.png",
+                        "logo": "",
                         "logo_height_range": 36,
                         "logo_height_range_mobile": 24,
                         "style": "style4",
                         "header_shadow": "header--shadow-small",
                         "menu": "main-menu",
                         "transparent_header": true,
-                        "logo_light": "shopify:\/\/shop_images\/logo-w.png",
+                        "logo_light": "",
                         "show_language_switcher": false,
                         "show_currency_switcher": true,
                         "mobile_secondary_menu": "company",
                         "mobile_promo_heading": "Alexandre Vauthier A\/W 22 Haute Couture",
                         "mobile_promo_link_label": "Shop",
-                        "mobile_promo_link": "shopify:\/\/collections\/all"
+                        "mobile_promo_link": ""
                     }
                 },
                 "footer": {
@@ -573,10 +573,10 @@
                             "type": "megamenu",
                             "settings": {
                                 "position": "2",
-                                "promo_1_image": "shopify:\/\/shop_images\/promotion2.jpg",
+                                "promo_1_image": "",
                                 "promo_1_heading": "Luxury Bras & Undies",
                                 "promo_1_link_label": "Shop now",
-                                "promo_1_link": "shopify:\/\/collections\/all",
+                                "promo_1_link": "",
                                 "promo_2_heading": "Promotion heading",
                                 "promo_2_link_label": "Shop",
                                 "promo_2_link": ""
@@ -587,7 +587,7 @@
                         "c947d47d-abab-4f58-b89e-58ad729f6986"
                     ],
                     "settings": {
-                        "logo": "shopify:\/\/shop_images\/logo-2x.png",
+                        "logo": "",
                         "logo_height_range": 34,
                         "logo_height_range_mobile": 34,
                         "style": "style1",
@@ -595,10 +595,10 @@
                         "menu": "main-menu",
                         "transparent_header": false,
                         "mobile_secondary_menu": "company",
-                        "mobile_promo_image": "shopify:\/\/shop_images\/promotion2.jpg",
+                        "mobile_promo_image": "",
                         "mobile_promo_heading": "LUXURY BRAS & UNDIES",
                         "mobile_promo_link_label": "Shop",
-                        "mobile_promo_link": "shopify:\/\/collections\/all",
+                        "mobile_promo_link": "",
                         "show_language_switcher": true,
                         "show_currency_switcher": true
                     }
@@ -611,7 +611,7 @@
                             "settings": {
                                 "column_size": "large",
                                 "title": "",
-                                "image": "shopify:\/\/shop_images\/footer-logo.png",
+                                "image": "",
                                 "text": "<p>Beauty is perfect in its imperfections, so you just have to go with the imperfections. Money is the most corrosive aspect of life today because it means that all attention to detail is forgotten. <\/p>",
                                 "text_size": "small",
                                 "button_text": "",
@@ -930,7 +930,7 @@
                         "mobile_secondary_menu": "",
                         "mobile_promo_heading": "Alexandre Vauthier A\/W 22 Haute Couture",
                         "mobile_promo_link_label": "Shop",
-                        "mobile_promo_link": "shopify:\/\/collections\/all"
+                        "mobile_promo_link": ""
                     }
                 },
                 "footer": {

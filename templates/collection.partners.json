@@ -6,7 +6,7 @@
                 "slide_7MdNr4": {
                     "type": "slide",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/jglazer_helmets_1920x800_1_test_2.webp",
+                        "image": "",
                         "slide_link": "",
                         "video_background": false,
                         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -52,7 +52,7 @@
                 "image_6PTAiU": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-cbs.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -61,7 +61,7 @@
                 "image_AhR9hi": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-forbes.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -70,7 +70,7 @@
                 "image_WeKrXz": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-nbc.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -79,7 +79,7 @@
                 "image_8RyMh4": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-fortune.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -88,7 +88,7 @@
                 "image_fgaBJM": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-fox.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -97,7 +97,7 @@
                 "image_n6jHzj": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-market-watch.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -106,7 +106,7 @@
                 "image_fa8DmH": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-medium.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -115,7 +115,7 @@
                 "image_3ezAjC": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Logo-yahoo-finance.svg",
+                        "image": "",
                         "link": "",
                         "heading": "",
                         "text": ""
@@ -205,28 +205,28 @@
                 "logo_eQnpLD": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-DrugFree.svg",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_ni4VQj": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-USA.svg",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_MrMjDF": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-Benefits.svg",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_RMnMVW": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-Trial.svg",
+                        "image": "",
                         "link": ""
                     }
                 }
@@ -281,7 +281,7 @@
             "type": "single-image",
             "name": "Single image",
             "settings": {
-                "image": "shopify:\/\/shop_images\/victory-athlete-runs-1036798468.webp",
+                "image": "",
                 "full_width": true,
                 "disable_top_spacing": true,
                 "disable_bottom_spacing": true
@@ -342,7 +342,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-drug-free.svg",
+                        "image": "",
                         "heading": "Drug-free Wellness",
                         "text": "<p>Solutions that empower people to live better by making wellness accessible, effective, and 100% natural.<\/p>"
                     }
@@ -351,7 +351,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Clinic.svg",
+                        "image": "",
                         "heading": "Integrity First",
                         "text": "<p>Do not make casual promises. Back up everything with clinical research.<\/p>"
                     }
@@ -360,7 +360,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Scope.svg",
+                        "image": "",
                         "heading": "Always Innovate",
                         "text": "<p>Lead in neural technology. Do what no one else is doing. Be the only company of its kind in the world.<\/p>"
                     }
@@ -369,7 +369,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-WellnessCircle.svg",
+                        "image": "",
                         "heading": "Make An Impact",
                         "text": "<p>Help people of almost any age – from 8 years old and up – and from elite athletes to the folks who want to enjoy a walk in the park.<\/p>"
                     }
@@ -402,7 +402,7 @@
                 "column_PQJMGY": {
                     "type": "column",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/11.png",
+                        "image": "",
                         "image_full_width": false,
                         "image_link": "",
                         "retina": true,
@@ -415,7 +415,7 @@
                 "column_F7he7P": {
                     "type": "column",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/23.png",
+                        "image": "",
                         "image_full_width": false,
                         "image_link": "",
                         "retina": true,
@@ -428,7 +428,7 @@
                 "column_URpHnW": {
                     "type": "column",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/71M.png",
+                        "image": "",
                         "image_full_width": false,
                         "image_link": "",
                         "retina": true,
@@ -470,7 +470,7 @@
                 "image_b3JFnP": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Loyalty_football_2080692250.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "NFL",
                         "text": "",
@@ -484,7 +484,7 @@
                 "image_KBRNeG": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Loyalty_basketball_2388728393.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "NBA",
                         "text": "",
@@ -498,7 +498,7 @@
                 "image_N9pXUr": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Loyalty_baseball_2403295147.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "MLB",
                         "text": "",
@@ -512,7 +512,7 @@
                 "image_kWxEbD": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Loyalty_soccer_2247981481.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "Champion League",
                         "text": "",
@@ -526,7 +526,7 @@
                 "image_DFKwg6": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Loyalty_hockey_5725042.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "NHL",
                         "text": "",
@@ -642,7 +642,7 @@
             ],
             "name": "Image with text",
             "settings": {
-                "image": "shopify:\/\/shop_images\/boost-core-workout-338397767.webp",
+                "image": "",
                 "use_video": false,
                 "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
                 "video_autoplay": true,
@@ -694,7 +694,7 @@
             ],
             "name": "Image with text",
             "settings": {
-                "image": "shopify:\/\/shop_images\/freedom-smiling-aged-handsome-man-with-beard-and-tattoo-sitting-near-his-trailer-holding-a-mug-of-coffee-2420272719.webp",
+                "image": "",
                 "use_video": false,
                 "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
                 "video_autoplay": true,
@@ -720,7 +720,7 @@
                 "description": "",
                 "section_width": "full-width-row-full",
                 "video": "https:\/\/www.youtube.com\/watch?v=ypBJih9oPi8&t",
-                "video_hosted": "shopify:\/\/files\/videos\/super-patch-explain-video_5f5cef96-2d97-4479-bfaf-931186210dab.mp4",
+                "video_hosted": "",
                 "video_autoplay": false,
                 "aspect_ratio": "16-9",
                 "disable_top_spacing": true,
@@ -773,7 +773,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-energy.svg",
+                        "image": "",
                         "heading": "More Energy",
                         "text": ""
                     }
@@ -782,7 +782,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Freedom.svg",
+                        "image": "",
                         "heading": "Better pain management",
                         "text": ""
                     }
@@ -791,7 +791,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-REM.svg",
+                        "image": "",
                         "heading": "Longer, deeper sleep",
                         "text": ""
                     }
@@ -800,7 +800,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-runnerCircle.svg",
+                        "image": "",
                         "heading": "Greater athletic performance",
                         "text": ""
                     }
@@ -809,7 +809,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Peace.svg",
+                        "image": "",
                         "heading": "Lower stress",
                         "text": ""
                     }
@@ -818,7 +818,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-YogaCircle.svg",
+                        "image": "",
                         "heading": "Enhanced balance & stability",
                         "text": ""
                     }
@@ -827,7 +827,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Focus.svg",
+                        "image": "",
                         "heading": "Better focus & concentration",
                         "text": ""
                     }
@@ -836,7 +836,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Joy.svg",
+                        "image": "",
                         "heading": "Better mood",
                         "text": ""
                     }
@@ -845,7 +845,7 @@
                     "type": "icon",
                     "settings": {
                         "icon": "ruler",
-                        "image": "shopify:\/\/shop_images\/Icon-Defend.svg",
+                        "image": "",
                         "heading": "Immune support",
                         "text": ""
                     }
@@ -998,28 +998,28 @@
                 "logo_i9iRGP": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic.png",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_VajdTq": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-2.png",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_i8wwdR": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-3.png",
+                        "image": "",
                         "link": ""
                     }
                 },
                 "logo_FXMAwK": {
                     "type": "logo",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Infographic-1.png",
+                        "image": "",
                         "link": ""
                     }
                 }
@@ -1076,7 +1076,7 @@
                 "image_P7z69Y": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/Shea-Pierre-Explosive-3x4.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "Shea Pierre",
                         "text": "Strength & Conditioning Coach",
@@ -1090,7 +1090,7 @@
                 "image_qbAWAc": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/jglazer-helmets-3x4.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "Jay Glazer",
                         "text": "NFL Insider For FOX Sports' <br>\naward-winning FOX NFL Sunday",
@@ -1104,7 +1104,7 @@
                 "image_LmNKL6": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/lGreer-golden-3x4.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "Lee Greer",
                         "text": "Fitness Coach and Beauty\u2028<br> Skin Care Model",
@@ -1118,7 +1118,7 @@
                 "image_AcKkqE": {
                     "type": "image",
                     "settings": {
-                        "image": "shopify:\/\/shop_images\/bAbasolo-clinic-3x4.webp",
+                        "image": "",
                         "subheading": "",
                         "title": "Bryan Abasolo",
                         "text": "Chiropractor & Health Coach",
@@ -1338,28 +1338,28 @@
                     "type": "product",
                     "settings": {
                         "name": "Super Patch",
-                        "image": "shopify:\/\/shop_images\/Comparison-Patches-5x4.png"
+                        "image": ""
                     }
                 },
                 "product_dApxDB": {
                     "type": "product",
                     "settings": {
                         "name": "Energy Drink",
-                        "image": "shopify:\/\/shop_images\/Comparison-EnergyDrink-5x4.png"
+                        "image": ""
                     }
                 },
                 "product_dHPRW4": {
                     "type": "product",
                     "settings": {
                         "name": "Pain Meds",
-                        "image": "shopify:\/\/shop_images\/Comparison-PainMeds-5x4.png"
+                        "image": ""
                     }
                 },
                 "product_mF7QkK": {
                     "type": "product",
                     "settings": {
                         "name": "Sleep Aids",
-                        "image": "shopify:\/\/shop_images\/Comparison-SleepAids-5x4.png"
+                        "image": ""
                     }
                 },
                 "benefit_dD6FUy": {
@@ -1367,10 +1367,10 @@
                     "settings": {
                         "title": "Drug-Free",
                         "description": "No chemicals, supplements, or pharmaceuticals",
-                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
-                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                        "mark_1": "",
+                        "mark_2": "",
+                        "mark_3": "",
+                        "mark_4": ""
                     }
                 },
                 "benefit_QBwQ6z": {
@@ -1378,10 +1378,10 @@
                     "settings": {
                         "title": "No Side-Effects",
                         "description": "Only your brain\/body’s natural optimization",
-                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
-                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                        "mark_1": "",
+                        "mark_2": "",
+                        "mark_3": "",
+                        "mark_4": ""
                     }
                 },
                 "benefit_VqPbmQ": {
@@ -1389,10 +1389,10 @@
                     "settings": {
                         "title": "Non-Invasive",
                         "description": "Works with the body. Applies directly on your skin. Pattern rests on the skin surface",
-                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
-                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                        "mark_1": "",
+                        "mark_2": "",
+                        "mark_3": "",
+                        "mark_4": ""
                     }
                 },
                 "benefit_tQQ3e8": {
@@ -1400,10 +1400,10 @@
                     "settings": {
                         "title": "Long-Lasting Benefits",
                         "description": "With specific patches, the benefits can be felt in minutes. <br><br> The effects of all our patches last for 24 hours.",
-                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
-                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                        "mark_1": "",
+                        "mark_2": "",
+                        "mark_3": "",
+                        "mark_4": ""
                     }
                 },
                 "benefit_DBxBmj": {
@@ -1411,10 +1411,10 @@
                     "settings": {
                         "title": "Easy to Use",
                         "description": "Simple and mess-free",
-                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
-                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
-                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                        "mark_1": "",
+                        "mark_2": "",
+                        "mark_3": "",
+                        "mark_4": ""
                     }
                 }
             },
