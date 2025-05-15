@@ -1,1 +1,1077 @@
-{"sections":{"main-collection-banner":{"type":"main-collection-banner","disabled":true,"custom_css":[".collection-banner--title {font-weight: 900 !important;}"],"settings":{"show_collection_image":false,"show_collection_description":false,"show_subcollections":false,"make_heading_uppercase":true,"text_alignment":"center","image":"","overlay_color":"#000000","overlay_opacity":0}},"rich_text_G9J4VY":{"type":"rich-text","blocks":{"heading_eqYtDK":{"type":"heading","settings":{"text":"THE STORY BEHIND <br> SUPER PATCH","size":"h1"}},"text_YG3mXa":{"type":"text","settings":{"text":"<p><strong>It Began With A Personal Struggle<\/strong><\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["heading_eqYtDK","text_YG3mXa"],"name":"Rich text","settings":{"section_width":"grid","text_width":"xlarge","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"multicolumn_tRTQVB":{"type":"multicolumn","blocks":{"column_dXMVp3":{"type":"column","settings":{"image_full_width":false,"image_link":"","retina":true,"title":"","text":"<p>Super Patch’s mission is simple: to improve lives through unique, innovative, drug-free wellness solutions. The company’s origins and its journey are personal. It began over 15 years ago when Jay Dhaliwal sought alternatives to traditional medicine for his mother, who was dealing with debilitating health issues. Conventional treatments weren’t providing relief, and driven by hope, Jay researched and discovered the power<\/p>","link_label":"","link":""}},"column_yUMKA7":{"type":"column","settings":{"image_full_width":false,"image_link":"","retina":true,"title":"","text":"<p>of neurostimulation—the mind-to-body connection that activates our natural ability to self-heal. This breakthrough inspired him to create Super Patch, expanding his vision to offer the world simple, effective solutions that unlock our natural potential—health, wellness, and performance—all harnessed into a wearable patch.<\/p>","link_label":"","link":""}}},"block_order":["column_dXMVp3","column_yUMKA7"],"name":"Multicolumn","settings":{"heading":"","heading_left":false,"description":"","full_width":false,"display_type":"grid","image_ratio":"adapt","columns_desktop":2,"text_alignment":"left","heading_size":"h5","mobile_swipe":false,"show_progress_bar":true,"disable_top_spacing":true,"disable_bottom_spacing":true}},"rich_text_Cbfgk8":{"type":"rich-text","blocks":{"heading_c9cN3E":{"type":"heading","settings":{"text":"\"","size":"h1"}},"text_VipBCD":{"type":"text","settings":{"text":"<h3><em><strong>I’m here to build something generational that will transform the world. Anything else is a waste of time.<\/strong><\/em><\/h3>","custom_liquid":"","size":"text-size-regular"}},"text_x9qGiJ":{"type":"text","settings":{"text":"<p>Jay Dhaliwal, Founder & CEO<\/p>","custom_liquid":"","size":"text-size-regular"}},"image_XGKqt9":{"type":"image","settings":{"image":"","retina":true}}},"block_order":["heading_c9cN3E","text_VipBCD","text_x9qGiJ","image_XGKqt9"],"name":"Rich text","settings":{"section_width":"grid","text_width":"grid","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":true,"disable_bottom_spacing":false}},"rich_text_8Gdetq":{"type":"rich-text","blocks":{"heading_WJJMFN":{"type":"heading","settings":{"text":"INNOVATING WELLNESS, ONE PATCH AT A TIME.","size":"h1"}},"text_NenHiY":{"type":"text","settings":{"text":"<p><strong>Super Patch is science-driven and focused on designing all-natural, drug-free solutions that increase energy, help with pain relief, better sleep, athletic performance and recovery, and more.<\/strong><\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["heading_WJJMFN","text_NenHiY"],"name":"Rich text","settings":{"section_width":"grid","text_width":"xlarge","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"multicolumn_ktjnWb":{"type":"multicolumn","blocks":{"column_dtKHDc":{"type":"column","settings":{"image_full_width":false,"image_link":"","retina":true,"title":"","text":"<p>The company principles are simple:<br\/><\/p><ul><li><strong>Drug-free Wellness<\/strong>–  Solutions that empower people to live better by making wellness accessible, effective, and 100% natural.<\/li><\/ul><p><\/p><ul><li><strong>Integrity First<\/strong> – Do not make casual promises. Back up everything with clinical research.<\/li><\/ul><p><\/p><ul><li><strong>Always Innovate <\/strong>– Lead in neural technology. Do what no one else is doing. Be the only company of its kind in the world.<\/li><\/ul><p><\/p><ul><li><strong>Make An Impact <\/strong>– Help people of almost any age –from 8 years old and up – and from elite athletes to the folks who want to enjoy a walk in the park<\/li><\/ul><p><\/p><p>And that’s what is happening. Super Patch has seen hundreds of thousands of real-life success stories and growing demand for our patches. We know we are transforming the health and wellness industry.<\/p>","link_label":"","link":""}},"column_XYdyny":{"type":"column","settings":{"image_full_width":false,"image_link":"","retina":true,"title":"","text":"<h1>75+<\/h1><p><strong>Million Patches Sold Worldwide in 2024<\/strong><\/p><h5>Trusted by<\/h5><h1>DOCTORS, ATHLETES, AND FAMILIES<\/h1><h3>SCIENTIFICALLY VALIDATED TECH<\/h3><p><\/p>","link_label":"","link":""}}},"block_order":["column_dtKHDc","column_XYdyny"],"name":"Multicolumn","settings":{"heading":"","heading_left":false,"description":"","full_width":false,"display_type":"grid","image_ratio":"adapt","columns_desktop":2,"text_alignment":"left","heading_size":"h5","mobile_swipe":false,"show_progress_bar":true,"disable_top_spacing":true,"disable_bottom_spacing":true}},"single_image_r7qjbk":{"type":"single-image","name":"Single image","settings":{"image":"","full_width":false,"disable_top_spacing":true,"disable_bottom_spacing":false}},"custom_text_with_image_aira_tgFDLM":{"type":"custom-text-with-image-aira","blocks":{"heading_AJdiUw":{"type":"heading","settings":{"text":"A PERFORMANCE REVOLUTION, AT THE HIGHEST LEVEL.","heading_size":"h1"}},"text_F9NLYB":{"type":"text","settings":{"text":"<p><strong>It’s going to surprise you who already wears Super Patch to increase their physical performance, mental intensity, and focus.<\/strong><\/p>","description_size":"medium"}},"text_RkfqJN":{"type":"text","settings":{"text":"<p>Elite athletes. Dedicated strength coaches. And veteran trainers who have tried every other athletic solution for their team. They are professionals at the top of their game in the elite divisions of pro sports.<\/p><p>We know that underneath the uniforms of some incredible performers is Super Patch.<\/p>","description_size":"medium"}}},"block_order":["heading_AJdiUw","text_F9NLYB","text_RkfqJN"],"name":"Custom Text With Image","settings":{"full_width":true,"display_type":"grid","image_ratio":"adapt","columns_desktop":4,"text_alignment":"left","heading_size":"h5","mobile_swipe":false,"show_progress_bar":true,"image":"","use_video":false,"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_autoplay":true,"video_controls":true,"height":"adapt","desktop_image_width":"medium","section_width":"grid","layout":"image_first","content_position":"text-left","color_bg":"#ffffff","color_text":"#151515","color_border":"#e2e2e2","disable_top_spacing":false,"disable_bottom_spacing":false}},"image_with_text_fUEeBk":{"type":"image-with-text","blocks":{"image_C88MtG":{"type":"image","settings":{"image":"","retina":true}},"heading_LRCgjH":{"type":"heading","settings":{"text":"WHAT’S HOLDING YOU BACK?","heading_size":"h1"}},"text_hikFix":{"type":"text","settings":{"text":"<p><strong>Almost everyone has a personal wellness struggle. Every day, millions of people deal with low energy, pain or discomfort, poor sleep, and trouble focusing.<\/strong><\/p>","description_size":"medium"}},"text_cmXck4":{"type":"text","settings":{"text":"<p>The traditional fixes like caffeine, energy drinks, over-the-counter pain meds and stimulants are short-term, plus, they can have side-effects andcan contain unhealthy chemicals.<\/p>","description_size":"medium"}},"heading_ytWaFW":{"type":"heading","settings":{"text":"A SIMPLE, NATURAL ALTERNATIVE","heading_size":"h1"}},"text_NJFVjV":{"type":"text","settings":{"text":"<p>Super Patch doesn’t use any drugs or chemicals. There’s nothing to be absorbed into the body and no electrical impulses either. Drug, additive, and chemical free. Made from Medical-grade 3M material.<\/p>","description_size":"medium"}},"text_PeULLE":{"type":"text","settings":{"text":"<p>You put on a patch, and it triggers your brain and body to naturally enhance your energy, concentration, sleep cycle, recovery, and more. 13 different patches for a variety of benefits.<\/p>","description_size":"medium"}},"text_XHEzB3":{"type":"text","settings":{"text":"<p>Unlike supplements or medications, it works by activating your body’s natural potential through neural stimulation. And the best part: YOU are the generator of your own inner potential.<\/p>","description_size":"medium"}}},"block_order":["image_C88MtG","heading_LRCgjH","text_hikFix","text_cmXck4","heading_ytWaFW","text_NJFVjV","text_PeULLE","text_XHEzB3"],"custom_css":[".image-with-text {align-items: start;}"],"name":"Image with text","settings":{"image":"","use_video":false,"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_autoplay":true,"video_controls":true,"height":"adapt","desktop_image_width":"medium","section_width":"grid","layout":"text_first","content_position":"text-left","color_bg":"#ffffff","color_text":"#151515","color_border":"#e2e2e2","disable_top_spacing":false,"disable_bottom_spacing":false}},"rich_text_WcqK9d":{"type":"rich-text","blocks":{"heading_4QMMfy":{"type":"heading","settings":{"text":"VIBROTACTILE TECHNOLOGY  THE POWER OF TOUCH","size":"h1"}},"text_dQLibD":{"type":"text","settings":{"text":"<p><strong>It’s called “VTT” for short and it’s seriously complex.<\/strong><\/p>","custom_liquid":"","size":"text-size-regular"}},"text_TtrhP9":{"type":"text","settings":{"text":"<p>Super Patch uses VTT by imprinting intricate patterns on each patch. A patch’s pattern is designed to use skin contact to send signals to your brain. The signals make the desired neuro-function work better and your body responds by performing at its best. Think of it like “<strong>Braille For Your Brain<\/strong>” – the patch pattern is “read” inside of you to help you function better.<\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["heading_4QMMfy","text_dQLibD","text_TtrhP9"],"name":"Rich text","settings":{"section_width":"grid","text_width":"xlarge","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":true,"disable_bottom_spacing":true}},"text_with_icons_JxDqMW":{"type":"text-with-icons","blocks":{"icon_kFb8jk":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"More energy","text":""}},"icon_xEDLzE":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Better pain managemennt","text":""}},"icon_xATDCQ":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Longer, deeper sleep","text":""}},"icon_R3fcjM":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Greater athletic performance","text":""}},"icon_zaLa3K":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Lower stress","text":""}},"icon_6yxV38":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Enhanced balance & stability","text":""}},"icon_WimdqL":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Better focus & concentration","text":""}},"icon_9xX3Td":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Better mood","text":""}},"icon_LVNjDL":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"Immune support","text":""}},"icon_KhbiB4":{"type":"icon","settings":{"icon":"ruler","image":"","heading":"So much more!!","text":""}}},"block_order":["icon_kFb8jk","icon_xEDLzE","icon_xATDCQ","icon_R3fcjM","icon_zaLa3K","icon_6yxV38","icon_WimdqL","icon_9xX3Td","icon_LVNjDL","icon_KhbiB4"],"custom_css":[".text-with-icons__inner {justify-content: start;}"],"name":"Text with icons","settings":{"text_alignment":"left","icon_position":"left","icon_size":"xlarge","heading_size":"medium","mobile_swipe":true,"color_bg":"rgba(0,0,0,0)","color_heading":"#151515","color_text":"#151515","disable_top_spacing":false,"disable_bottom_spacing":false}},"single_image_fciVng":{"type":"single-image","name":"Single image","settings":{"image":"","full_width":false,"disable_top_spacing":false,"disable_bottom_spacing":false}},"rich_text_yAWGDa":{"type":"rich-text","blocks":{"heading_fjma8Q":{"type":"heading","settings":{"text":"FIND THE PATCH  THAT YOU NEED","size":"h1"}},"text_XKjEK8":{"type":"text","settings":{"text":"<p><strong>For anyone dealing with wellness issues, it’s about finding the patches that will work for you.<\/strong><\/p>","custom_liquid":"","size":"text-size-regular"}},"text_xzNREf":{"type":"text","settings":{"text":"<p>There are 14 different patch products, each offering a specific benefit or series of benefits. And to make it just a bit more complicated, many Super Patch products can be worn at the same time, so the benefits complement each other.<\/p>","custom_liquid":"","size":"text-size-regular"}},"text_cWYdrj":{"type":"text","settings":{"text":"<p>As you can see, Super Patch products can help with a wide range of health, wellness and performance issues...<\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["heading_fjma8Q","text_XKjEK8","text_xzNREf","text_cWYdrj"],"name":"Rich text","settings":{"section_width":"grid","text_width":"xlarge","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"product-grid":{"type":"main-collection-product-grid","blocks":{"2eb8e6da-98ad-442c-b31e-fcc9bc0532b9":{"type":"promotion","disabled":true,"settings":{"promotion_collection":"","promotion_position":7,"promotion_width":"1","title":"PROMOTION BANNER","text":"Add your description text for promotion banner here.","link_label":"Explore","link":"","use_text_button":true,"block_link":"","content_position":"middle-center","text_alignment":"center","overlay_color":"#000000","overlay_opacity":15}}},"block_order":["2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"],"disabled":true,"settings":{"full_width":false,"products_per_page":20,"columns_desktop":5,"pagination_type":"infinite","enable_filtering":false,"enable_sorting":false,"show_counts":true,"filter_color_swatches":false,"facets_desktop":"sidebar","sidebar_size":"medium"}},"product-grid-affiliates":{"type":"product-grid-affiliates","blocks":{"2eb8e6da-98ad-442c-b31e-fcc9bc0532b9":{"type":"promotion","disabled":true,"settings":{"promotion_collection":"","promotion_position":7,"promotion_width":"1","title":"PROMOTION BANNER","text":"Add your description text for promotion banner here.","link_label":"Explore","link":"","use_text_button":true,"block_link":"","content_position":"middle-center","text_alignment":"center","overlay_color":"#000000","overlay_opacity":15}}},"block_order":["2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"],"custom_css":[".product-card-info a,.product-card-info .amount {display: none;}"],"settings":{"full_width":false,"products_per_page":20,"columns_desktop":5,"pagination_type":"infinite","enable_filtering":false,"enable_sorting":false,"show_counts":true,"filter_color_swatches":false,"facets_desktop":"sidebar","sidebar_size":"medium"}},"image_with_text_J4KLfV":{"type":"image-with-text","blocks":{"image_WMqakK":{"type":"image","settings":{"image":"","retina":true}},"heading_Q4Kz7z":{"type":"heading","settings":{"text":"REAL PEOPLE. REAL SUCCESS STORIES.","heading_size":"h1"}},"text_gqF3ci":{"type":"text","settings":{"text":"<p><strong>This is where the Super Patch story really shines.<\/strong><\/p>","description_size":"medium"}},"text_LMU6Kc":{"type":"text","settings":{"text":"<p>Hundreds of thousands of people have already experienced the benefits of our patches. And with a steady expansion plan that includes Turkey, Switzerland, Mexico, and Colombia, for this year alone, it’s only going to get bigger. Much bigger. And while Super Patch customer experiences are inspiring, we keep on doing the clinical research for our current line-up and for future real-world applications. With us, it’s always Integrity First, in our mission to bring Wellness to the World.<br\/><br\/><\/p>","description_size":"medium"}},"text_jahyfN":{"type":"text","settings":{"text":"<h1>\"<\/h1>","description_size":"large"}},"text_89A7Jh":{"type":"text","settings":{"text":"<h3><em><strong>This REM Super Patch for me has been a game changer.<\/strong><\/em><\/h3>","description_size":"medium"}},"text_CNAjAb":{"type":"text","settings":{"text":"<p>Jay Glazer, Sports Journalist & TV Broadcaster<\/p>","description_size":"medium"}},"text_QHATRg":{"type":"text","settings":{"text":"<h1>\"<\/h1>","description_size":"large"}},"text_B3nCN3":{"type":"text","settings":{"text":"<h3><em><strong>I'm always pushing myself to the limits. Whenever I'm feeling any aches or pains I put the Freedom Patch on.<\/strong><\/em><\/h3>","description_size":"medium"}},"text_nxB3xY":{"type":"text","settings":{"text":"<p>Shea Pierre, Head Performance Coach<\/p>","description_size":"medium"}},"text_KT6PRK":{"type":"text","settings":{"text":"<h1>\"<\/h1>","description_size":"large"}},"text_MB3Fh7":{"type":"text","settings":{"text":"<h3><em><strong>Super Patch products are for anyone who wants to take their fitness and recovery game to the next level and ultimately reach their goals.<\/strong><\/em><\/h3>","description_size":"medium"}},"text_pK9UXa":{"type":"text","settings":{"text":"<p>Bryan Abasolo, Chiropractor & Health Coach<\/p>","description_size":"medium"}}},"block_order":["image_WMqakK","heading_Q4Kz7z","text_gqF3ci","text_LMU6Kc","text_jahyfN","text_89A7Jh","text_CNAjAb","text_QHATRg","text_B3nCN3","text_nxB3xY","text_KT6PRK","text_MB3Fh7","text_pK9UXa"],"name":"Image with text","settings":{"image":"","use_video":false,"video":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","video_autoplay":true,"video_controls":true,"height":"adapt","desktop_image_width":"medium","section_width":"grid","layout":"text_first","content_position":"text-left","color_bg":"#ffffff","color_text":"#151515","color_border":"#e2e2e2","disable_top_spacing":false,"disable_bottom_spacing":false}},"rich_text_4XbMEy":{"type":"rich-text","blocks":{"heading_Dj4Agi":{"type":"heading","settings":{"text":"WHY IS  SUPER PATCH BETTER","size":"h1"}},"text_LKTTAf":{"type":"text","settings":{"text":"<p><strong>It’s almost too easy to critique the traditional health, wellness and performance solutions.<\/strong><\/p>","custom_liquid":"","size":"text-size-regular"}},"text_FWNXLi":{"type":"text","settings":{"text":"<p>But for the sake of everyone’s well-being, it was necessary to challenge them. A health and wellness solution must help, but also, DO NO HARM.<\/p>","custom_liquid":"","size":"text-size-regular"}},"heading_wMn8CH":{"type":"heading","settings":{"text":"THE SUPER PATCH ADVANTAGE","size":"h2"}},"text_KCrgbL":{"type":"text","settings":{"text":"<p>Our patches work WITH your body by using your brain and body’s natural potential for self-healing.<\/p>","custom_liquid":"","size":"text-size-regular"}},"text_qxCMgn":{"type":"text","settings":{"text":"<p>Traditional fixes – stimulants, pills, energy drinks – can work AGAINSTthe body with unhealthy, even harmful chemicals, additives and yes, toomuch sugar and caffeine.<\/p>","custom_liquid":"","size":"text-size-regular"}}},"block_order":["heading_Dj4Agi","text_LKTTAf","text_FWNXLi","heading_wMn8CH","text_KCrgbL","text_qxCMgn"],"name":"Rich text","settings":{"section_width":"grid","text_width":"xlarge","text_position":"left","text_alignment":"left","color_bg":"rgba(0,0,0,0)","color_text":"#151515","color_links":"#151515","disable_top_spacing":false,"disable_bottom_spacing":true}},"166366972953e881f5":{"type":"collection-list","disabled":true,"settings":{"heading":"","heading_left":false,"description":"","full_width":true,"collection_list":["clothing","denim","dresses","knitwear","long","pants"],"image_ratio":"square","layout":"grid","style":"style1","columns_desktop":6,"columns_mobile":"1","show_progress_bar":true,"mobile_swipe":true,"overlay_color":"#000000","overlay_opacity":0,"disable_top_spacing":true,"disable_bottom_spacing":true}},"benefits_aira_xaciDr":{"type":"benefits-aira","blocks":{"product_kHrbBN":{"type":"product","settings":{"name":"Super Patch","image":""}},"product_6Ciapx":{"type":"product","settings":{"name":"Energy Drinks","image":""}},"product_8YgyHr":{"type":"product","settings":{"name":"Pain Meds","image":""}},"product_rEFFVY":{"type":"product","settings":{"name":"Sleep Aids","image":""}},"benefit_DcTRVk":{"type":"benefit","settings":{"title":"Drug-free","description":"No chemicals, supplements, or pharmaceuticals","mark_1":"","mark_2":"","mark_3":"","mark_4":""}},"benefit_BRqika":{"type":"benefit","settings":{"title":"No Side-Effects","description":"Only your brain\/body’s natural optimization","mark_1":"","mark_2":"","mark_3":"","mark_4":""}},"benefit_8JMABy":{"type":"benefit","settings":{"title":"Non-Invasive","description":"Works with the body. Applies directly on your skin. Pattern rests on the skin surface","mark_1":"","mark_2":"","mark_3":"","mark_4":""}},"benefit_6xKBPF":{"type":"benefit","settings":{"title":"Long-Lasting Benefits","description":"With specific patches, the benefits can be felt in minutes.  The effects of all our patches last for24 hours.","mark_1":"","mark_2":"","mark_3":"","mark_4":""}},"benefit_RGYX6G":{"type":"benefit","settings":{"title":"Easy to Use","description":"Simple and mess-free","mark_1":"","mark_2":"","mark_3":"","mark_4":""}}},"block_order":["product_kHrbBN","product_6Ciapx","product_8YgyHr","product_rEFFVY","benefit_DcTRVk","benefit_BRqika","benefit_8JMABy","benefit_6xKBPF","benefit_RGYX6G"],"name":"Benefits Comparison Table","settings":{"heading":"THE BENEFITS","section_width":"grid","content_position":"text-left","color_bg":"#f2f2f4","color_text":"#151515","color_border":"#e2e2e2","disable_top_spacing":false,"disable_bottom_spacing":false}}},"order":["main-collection-banner","rich_text_G9J4VY","multicolumn_tRTQVB","rich_text_Cbfgk8","rich_text_8Gdetq","multicolumn_ktjnWb","single_image_r7qjbk","custom_text_with_image_aira_tgFDLM","image_with_text_fUEeBk","rich_text_WcqK9d","text_with_icons_JxDqMW","single_image_fciVng","rich_text_yAWGDa","product-grid","product-grid-affiliates","image_with_text_J4KLfV","rich_text_4XbMEy","166366972953e881f5","benefits_aira_xaciDr"]}
+{
+    "sections": {
+        "main-collection-banner": {
+            "type": "main-collection-banner",
+            "disabled": true,
+            "custom_css": [
+                ".collection-banner--title {font-weight: 900 !important;}"
+            ],
+            "settings": {
+                "show_collection_image": false,
+                "show_collection_description": false,
+                "show_subcollections": false,
+                "make_heading_uppercase": true,
+                "text_alignment": "center",
+                "image": "shopify:\/\/shop_images\/BG.png",
+                "overlay_color": "#000000",
+                "overlay_opacity": 0
+            }
+        },
+        "rich_text_G9J4VY": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_eqYtDK": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "THE STORY BEHIND <br> SUPER PATCH",
+                        "size": "h1"
+                    }
+                },
+                "text_YG3mXa": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>It Began With A Personal Struggle<\/strong><\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_eqYtDK",
+                "text_YG3mXa"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "xlarge",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": true
+            }
+        },
+        "multicolumn_tRTQVB": {
+            "type": "multicolumn",
+            "blocks": {
+                "column_dXMVp3": {
+                    "type": "column",
+                    "settings": {
+                        "image_full_width": false,
+                        "image_link": "",
+                        "retina": true,
+                        "title": "",
+                        "text": "<p>Super Patch’s mission is simple: to improve lives through unique, innovative, drug-free wellness solutions. The company’s origins and its journey are personal. It began over 15 years ago when Jay Dhaliwal sought alternatives to traditional medicine for his mother, who was dealing with debilitating health issues. Conventional treatments weren’t providing relief, and driven by hope, Jay researched and discovered the power<\/p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "column_yUMKA7": {
+                    "type": "column",
+                    "settings": {
+                        "image_full_width": false,
+                        "image_link": "",
+                        "retina": true,
+                        "title": "",
+                        "text": "<p>of neurostimulation—the mind-to-body connection that activates our natural ability to self-heal. This breakthrough inspired him to create Super Patch, expanding his vision to offer the world simple, effective solutions that unlock our natural potential—health, wellness, and performance—all harnessed into a wearable patch.<\/p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "column_dXMVp3",
+                "column_yUMKA7"
+            ],
+            "name": "Multicolumn",
+            "settings": {
+                "heading": "",
+                "heading_left": false,
+                "description": "",
+                "full_width": false,
+                "display_type": "grid",
+                "image_ratio": "adapt",
+                "columns_desktop": 2,
+                "text_alignment": "left",
+                "heading_size": "h5",
+                "mobile_swipe": false,
+                "show_progress_bar": true,
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": true
+            }
+        },
+        "rich_text_Cbfgk8": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_c9cN3E": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "\"",
+                        "size": "h1"
+                    }
+                },
+                "text_VipBCD": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h3><em><strong>I’m here to build something generational that will transform the world. Anything else is a waste of time.<\/strong><\/em><\/h3>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_x9qGiJ": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Jay Dhaliwal, Founder & CEO<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "image_XGKqt9": {
+                    "type": "image",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/woman-running.png",
+                        "retina": true
+                    }
+                }
+            },
+            "block_order": [
+                "heading_c9cN3E",
+                "text_VipBCD",
+                "text_x9qGiJ",
+                "image_XGKqt9"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "grid",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": false
+            }
+        },
+        "rich_text_8Gdetq": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_WJJMFN": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "INNOVATING WELLNESS, ONE PATCH AT A TIME.",
+                        "size": "h1"
+                    }
+                },
+                "text_NenHiY": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>Super Patch is science-driven and focused on designing all-natural, drug-free solutions that increase energy, help with pain relief, better sleep, athletic performance and recovery, and more.<\/strong><\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_WJJMFN",
+                "text_NenHiY"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "xlarge",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": true
+            }
+        },
+        "multicolumn_ktjnWb": {
+            "type": "multicolumn",
+            "blocks": {
+                "column_dtKHDc": {
+                    "type": "column",
+                    "settings": {
+                        "image_full_width": false,
+                        "image_link": "",
+                        "retina": true,
+                        "title": "",
+                        "text": "<p>The company principles are simple:<br\/><\/p><ul><li><strong>Drug-free Wellness<\/strong>–  Solutions that empower people to live better by making wellness accessible, effective, and 100% natural.<\/li><\/ul><p><\/p><ul><li><strong>Integrity First<\/strong> – Do not make casual promises. Back up everything with clinical research.<\/li><\/ul><p><\/p><ul><li><strong>Always Innovate <\/strong>– Lead in neural technology. Do what no one else is doing. Be the only company of its kind in the world.<\/li><\/ul><p><\/p><ul><li><strong>Make An Impact <\/strong>– Help people of almost any age –from 8 years old and up – and from elite athletes to the folks who want to enjoy a walk in the park<\/li><\/ul><p><\/p><p>And that’s what is happening. Super Patch has seen hundreds of thousands of real-life success stories and growing demand for our patches. We know we are transforming the health and wellness industry.<\/p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "column_XYdyny": {
+                    "type": "column",
+                    "settings": {
+                        "image_full_width": false,
+                        "image_link": "",
+                        "retina": true,
+                        "title": "",
+                        "text": "<h1>75+<\/h1><p><strong>Million Patches Sold Worldwide in 2024<\/strong><\/p><h5>Trusted by<\/h5><h1>DOCTORS, ATHLETES, AND FAMILIES<\/h1><h3>SCIENTIFICALLY VALIDATED TECH<\/h3><p><\/p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "column_dtKHDc",
+                "column_XYdyny"
+            ],
+            "name": "Multicolumn",
+            "settings": {
+                "heading": "",
+                "heading_left": false,
+                "description": "",
+                "full_width": false,
+                "display_type": "grid",
+                "image_ratio": "adapt",
+                "columns_desktop": 2,
+                "text_alignment": "left",
+                "heading_size": "h5",
+                "mobile_swipe": false,
+                "show_progress_bar": true,
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": true
+            }
+        },
+        "single_image_r7qjbk": {
+            "type": "single-image",
+            "name": "Single image",
+            "settings": {
+                "image": "shopify:\/\/shop_images\/world-map.png",
+                "full_width": false,
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": false
+            }
+        },
+        "custom_text_with_image_aira_tgFDLM": {
+            "type": "custom-text-with-image-aira",
+            "blocks": {
+                "heading_AJdiUw": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "A PERFORMANCE REVOLUTION, AT THE HIGHEST LEVEL.",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_F9NLYB": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>It’s going to surprise you who already wears Super Patch to increase their physical performance, mental intensity, and focus.<\/strong><\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_RkfqJN": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Elite athletes. Dedicated strength coaches. And veteran trainers who have tried every other athletic solution for their team. They are professionals at the top of their game in the elite divisions of pro sports.<\/p><p>We know that underneath the uniforms of some incredible performers is Super Patch.<\/p>",
+                        "description_size": "medium"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_AJdiUw",
+                "text_F9NLYB",
+                "text_RkfqJN"
+            ],
+            "name": "Custom Text With Image",
+            "settings": {
+                "full_width": true,
+                "display_type": "grid",
+                "image_ratio": "adapt",
+                "columns_desktop": 4,
+                "text_alignment": "left",
+                "heading_size": "h5",
+                "mobile_swipe": false,
+                "show_progress_bar": true,
+                "image": "shopify:\/\/shop_images\/champion-league.png",
+                "use_video": false,
+                "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_autoplay": true,
+                "video_controls": true,
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "section_width": "grid",
+                "layout": "image_first",
+                "content_position": "text-left",
+                "color_bg": "#ffffff",
+                "color_text": "#151515",
+                "color_border": "#e2e2e2",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        },
+        "image_with_text_fUEeBk": {
+            "type": "image-with-text",
+            "blocks": {
+                "image_C88MtG": {
+                    "type": "image",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/SuperPatchHorizontal_1.png",
+                        "retina": true
+                    }
+                },
+                "heading_LRCgjH": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "WHAT’S HOLDING YOU BACK?",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_hikFix": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>Almost everyone has a personal wellness struggle. Every day, millions of people deal with low energy, pain or discomfort, poor sleep, and trouble focusing.<\/strong><\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_cmXck4": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>The traditional fixes like caffeine, energy drinks, over-the-counter pain meds and stimulants are short-term, plus, they can have side-effects andcan contain unhealthy chemicals.<\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "heading_ytWaFW": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "A SIMPLE, NATURAL ALTERNATIVE",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_NJFVjV": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Super Patch doesn’t use any drugs or chemicals. There’s nothing to be absorbed into the body and no electrical impulses either. Drug, additive, and chemical free. Made from Medical-grade 3M material.<\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_PeULLE": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>You put on a patch, and it triggers your brain and body to naturally enhance your energy, concentration, sleep cycle, recovery, and more. 13 different patches for a variety of benefits.<\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_XHEzB3": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Unlike supplements or medications, it works by activating your body’s natural potential through neural stimulation. And the best part: YOU are the generator of your own inner potential.<\/p>",
+                        "description_size": "medium"
+                    }
+                }
+            },
+            "block_order": [
+                "image_C88MtG",
+                "heading_LRCgjH",
+                "text_hikFix",
+                "text_cmXck4",
+                "heading_ytWaFW",
+                "text_NJFVjV",
+                "text_PeULLE",
+                "text_XHEzB3"
+            ],
+            "custom_css": [
+                ".image-with-text {align-items: start;}"
+            ],
+            "name": "Image with text",
+            "settings": {
+                "image": "shopify:\/\/shop_images\/people.png",
+                "use_video": false,
+                "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_autoplay": true,
+                "video_controls": true,
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "section_width": "grid",
+                "layout": "text_first",
+                "content_position": "text-left",
+                "color_bg": "#ffffff",
+                "color_text": "#151515",
+                "color_border": "#e2e2e2",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        },
+        "rich_text_WcqK9d": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_4QMMfy": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "VIBROTACTILE TECHNOLOGY  THE POWER OF TOUCH",
+                        "size": "h1"
+                    }
+                },
+                "text_dQLibD": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>It’s called “VTT” for short and it’s seriously complex.<\/strong><\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_TtrhP9": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Super Patch uses VTT by imprinting intricate patterns on each patch. A patch’s pattern is designed to use skin contact to send signals to your brain. The signals make the desired neuro-function work better and your body responds by performing at its best. Think of it like “<strong>Braille For Your Brain<\/strong>” – the patch pattern is “read” inside of you to help you function better.<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_4QMMfy",
+                "text_dQLibD",
+                "text_TtrhP9"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "xlarge",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": true
+            }
+        },
+        "text_with_icons_JxDqMW": {
+            "type": "text-with-icons",
+            "blocks": {
+                "icon_kFb8jk": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/one-page-icons_BOOST-balance_and_stability.svg",
+                        "heading": "More energy",
+                        "text": ""
+                    }
+                },
+                "icon_xEDLzE": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-lower-stress.svg",
+                        "heading": "Better pain managemennt",
+                        "text": ""
+                    }
+                },
+                "icon_xATDCQ": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-clock.svg",
+                        "heading": "Longer, deeper sleep",
+                        "text": ""
+                    }
+                },
+                "icon_R3fcjM": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-greater-athletic.svg",
+                        "heading": "Greater athletic performance",
+                        "text": ""
+                    }
+                },
+                "icon_zaLa3K": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-lower-stress.svg",
+                        "heading": "Lower stress",
+                        "text": ""
+                    }
+                },
+                "icon_6yxV38": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-enhanced-balance.svg",
+                        "heading": "Enhanced balance & stability",
+                        "text": ""
+                    }
+                },
+                "icon_WimdqL": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/icon-better-focus.svg",
+                        "heading": "Better focus & concentration",
+                        "text": ""
+                    }
+                },
+                "icon_9xX3Td": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/one-page-icons_JOY-Natural_Mood-Lifting.svg",
+                        "heading": "Better mood",
+                        "text": ""
+                    }
+                },
+                "icon_LVNjDL": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/one-page-icons_DEFEND-BETTER_IMMUNITY.svg",
+                        "heading": "Immune support",
+                        "text": ""
+                    }
+                },
+                "icon_KhbiB4": {
+                    "type": "icon",
+                    "settings": {
+                        "icon": "ruler",
+                        "image": "shopify:\/\/shop_images\/one-page-icons_DEFEND-Better_Overall_Health.svg",
+                        "heading": "So much more!!",
+                        "text": ""
+                    }
+                }
+            },
+            "block_order": [
+                "icon_kFb8jk",
+                "icon_xEDLzE",
+                "icon_xATDCQ",
+                "icon_R3fcjM",
+                "icon_zaLa3K",
+                "icon_6yxV38",
+                "icon_WimdqL",
+                "icon_9xX3Td",
+                "icon_LVNjDL",
+                "icon_KhbiB4"
+            ],
+            "custom_css": [
+                ".text-with-icons__inner {justify-content: start;}"
+            ],
+            "name": "Text with icons",
+            "settings": {
+                "text_alignment": "left",
+                "icon_position": "left",
+                "icon_size": "xlarge",
+                "heading_size": "medium",
+                "mobile_swipe": true,
+                "color_bg": "rgba(0,0,0,0)",
+                "color_heading": "#151515",
+                "color_text": "#151515",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        },
+        "single_image_fciVng": {
+            "type": "single-image",
+            "name": "Single image",
+            "settings": {
+                "image": "shopify:\/\/shop_images\/backed-by-science.png",
+                "full_width": false,
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        },
+        "rich_text_yAWGDa": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_fjma8Q": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "FIND THE PATCH  THAT YOU NEED",
+                        "size": "h1"
+                    }
+                },
+                "text_XKjEK8": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>For anyone dealing with wellness issues, it’s about finding the patches that will work for you.<\/strong><\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_xzNREf": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>There are 14 different patch products, each offering a specific benefit or series of benefits. And to make it just a bit more complicated, many Super Patch products can be worn at the same time, so the benefits complement each other.<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_cWYdrj": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>As you can see, Super Patch products can help with a wide range of health, wellness and performance issues...<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_fjma8Q",
+                "text_XKjEK8",
+                "text_xzNREf",
+                "text_cWYdrj"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "xlarge",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": true
+            }
+        },
+        "product-grid": {
+            "type": "main-collection-product-grid",
+            "blocks": {
+                "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+                    "type": "promotion",
+                    "disabled": true,
+                    "settings": {
+                        "promotion_collection": "",
+                        "promotion_position": 7,
+                        "promotion_width": "1",
+                        "title": "PROMOTION BANNER",
+                        "text": "Add your description text for promotion banner here.",
+                        "link_label": "Explore",
+                        "link": "",
+                        "use_text_button": true,
+                        "block_link": "",
+                        "content_position": "middle-center",
+                        "text_alignment": "center",
+                        "overlay_color": "#000000",
+                        "overlay_opacity": 15
+                    }
+                }
+            },
+            "block_order": [
+                "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"
+            ],
+            "disabled": true,
+            "settings": {
+                "full_width": false,
+                "products_per_page": 20,
+                "columns_desktop": 5,
+                "pagination_type": "infinite",
+                "enable_filtering": false,
+                "enable_sorting": false,
+                "show_counts": true,
+                "filter_color_swatches": false,
+                "facets_desktop": "sidebar",
+                "sidebar_size": "medium"
+            }
+        },
+        "product-grid-affiliates": {
+            "type": "product-grid-affiliates",
+            "blocks": {
+                "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9": {
+                    "type": "promotion",
+                    "disabled": true,
+                    "settings": {
+                        "promotion_collection": "",
+                        "promotion_position": 7,
+                        "promotion_width": "1",
+                        "title": "PROMOTION BANNER",
+                        "text": "Add your description text for promotion banner here.",
+                        "link_label": "Explore",
+                        "link": "",
+                        "use_text_button": true,
+                        "block_link": "",
+                        "content_position": "middle-center",
+                        "text_alignment": "center",
+                        "overlay_color": "#000000",
+                        "overlay_opacity": 15
+                    }
+                }
+            },
+            "block_order": [
+                "2eb8e6da-98ad-442c-b31e-fcc9bc0532b9"
+            ],
+            "custom_css": [
+                ".product-card-info a,.product-card-info .amount {display: none;}"
+            ],
+            "settings": {
+                "full_width": false,
+                "products_per_page": 20,
+                "columns_desktop": 5,
+                "pagination_type": "infinite",
+                "enable_filtering": false,
+                "enable_sorting": false,
+                "show_counts": true,
+                "filter_color_swatches": false,
+                "facets_desktop": "sidebar",
+                "sidebar_size": "medium"
+            }
+        },
+        "image_with_text_J4KLfV": {
+            "type": "image-with-text",
+            "blocks": {
+                "image_WMqakK": {
+                    "type": "image",
+                    "settings": {
+                        "image": "shopify:\/\/shop_images\/SuperPatchHorizontal_1.png",
+                        "retina": true
+                    }
+                },
+                "heading_Q4Kz7z": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "REAL PEOPLE. REAL SUCCESS STORIES.",
+                        "heading_size": "h1"
+                    }
+                },
+                "text_gqF3ci": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>This is where the Super Patch story really shines.<\/strong><\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_LMU6Kc": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Hundreds of thousands of people have already experienced the benefits of our patches. And with a steady expansion plan that includes Turkey, Switzerland, Mexico, and Colombia, for this year alone, it’s only going to get bigger. Much bigger. And while Super Patch customer experiences are inspiring, we keep on doing the clinical research for our current line-up and for future real-world applications. With us, it’s always Integrity First, in our mission to bring Wellness to the World.<br\/><br\/><\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_jahyfN": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h1>\"<\/h1>",
+                        "description_size": "large"
+                    }
+                },
+                "text_89A7Jh": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h3><em><strong>This REM Super Patch for me has been a game changer.<\/strong><\/em><\/h3>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_CNAjAb": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Jay Glazer, Sports Journalist & TV Broadcaster<\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_QHATRg": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h1>\"<\/h1>",
+                        "description_size": "large"
+                    }
+                },
+                "text_B3nCN3": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h3><em><strong>I'm always pushing myself to the limits. Whenever I'm feeling any aches or pains I put the Freedom Patch on.<\/strong><\/em><\/h3>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_nxB3xY": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Shea Pierre, Head Performance Coach<\/p>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_KT6PRK": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h1>\"<\/h1>",
+                        "description_size": "large"
+                    }
+                },
+                "text_MB3Fh7": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h3><em><strong>Super Patch products are for anyone who wants to take their fitness and recovery game to the next level and ultimately reach their goals.<\/strong><\/em><\/h3>",
+                        "description_size": "medium"
+                    }
+                },
+                "text_pK9UXa": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Bryan Abasolo, Chiropractor & Health Coach<\/p>",
+                        "description_size": "medium"
+                    }
+                }
+            },
+            "block_order": [
+                "image_WMqakK",
+                "heading_Q4Kz7z",
+                "text_gqF3ci",
+                "text_LMU6Kc",
+                "text_jahyfN",
+                "text_89A7Jh",
+                "text_CNAjAb",
+                "text_QHATRg",
+                "text_B3nCN3",
+                "text_nxB3xY",
+                "text_KT6PRK",
+                "text_MB3Fh7",
+                "text_pK9UXa"
+            ],
+            "name": "Image with text",
+            "settings": {
+                "image": "shopify:\/\/shop_images\/real-people.png",
+                "use_video": false,
+                "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+                "video_autoplay": true,
+                "video_controls": true,
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "section_width": "grid",
+                "layout": "text_first",
+                "content_position": "text-left",
+                "color_bg": "#ffffff",
+                "color_text": "#151515",
+                "color_border": "#e2e2e2",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        },
+        "rich_text_4XbMEy": {
+            "type": "rich-text",
+            "blocks": {
+                "heading_Dj4Agi": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "WHY IS  SUPER PATCH BETTER",
+                        "size": "h1"
+                    }
+                },
+                "text_LKTTAf": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><strong>It’s almost too easy to critique the traditional health, wellness and performance solutions.<\/strong><\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_FWNXLi": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>But for the sake of everyone’s well-being, it was necessary to challenge them. A health and wellness solution must help, but also, DO NO HARM.<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "heading_wMn8CH": {
+                    "type": "heading",
+                    "settings": {
+                        "text": "THE SUPER PATCH ADVANTAGE",
+                        "size": "h2"
+                    }
+                },
+                "text_KCrgbL": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Our patches work WITH your body by using your brain and body’s natural potential for self-healing.<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                },
+                "text_qxCMgn": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Traditional fixes – stimulants, pills, energy drinks – can work AGAINSTthe body with unhealthy, even harmful chemicals, additives and yes, toomuch sugar and caffeine.<\/p>",
+                        "custom_liquid": "",
+                        "size": "text-size-regular"
+                    }
+                }
+            },
+            "block_order": [
+                "heading_Dj4Agi",
+                "text_LKTTAf",
+                "text_FWNXLi",
+                "heading_wMn8CH",
+                "text_KCrgbL",
+                "text_qxCMgn"
+            ],
+            "name": "Rich text",
+            "settings": {
+                "section_width": "grid",
+                "text_width": "xlarge",
+                "text_position": "left",
+                "text_alignment": "left",
+                "color_bg": "rgba(0,0,0,0)",
+                "color_text": "#151515",
+                "color_links": "#151515",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": true
+            }
+        },
+        "166366972953e881f5": {
+            "type": "collection-list",
+            "disabled": true,
+            "settings": {
+                "heading": "",
+                "heading_left": false,
+                "description": "",
+                "full_width": true,
+                "collection_list": [
+                    "clothing",
+                    "denim",
+                    "dresses",
+                    "knitwear",
+                    "long",
+                    "pants"
+                ],
+                "image_ratio": "square",
+                "layout": "grid",
+                "style": "style1",
+                "columns_desktop": 6,
+                "columns_mobile": "1",
+                "show_progress_bar": true,
+                "mobile_swipe": true,
+                "overlay_color": "#000000",
+                "overlay_opacity": 0,
+                "disable_top_spacing": true,
+                "disable_bottom_spacing": true
+            }
+        },
+        "benefits_aira_xaciDr": {
+            "type": "benefits-aira",
+            "blocks": {
+                "product_kHrbBN": {
+                    "type": "product",
+                    "settings": {
+                        "name": "Super Patch",
+                        "image": "shopify:\/\/shop_images\/boost-victory-patch.png"
+                    }
+                },
+                "product_6Ciapx": {
+                    "type": "product",
+                    "settings": {
+                        "name": "Energy Drinks",
+                        "image": "shopify:\/\/shop_images\/softdrinks.png"
+                    }
+                },
+                "product_8YgyHr": {
+                    "type": "product",
+                    "settings": {
+                        "name": "Pain Meds",
+                        "image": "shopify:\/\/shop_images\/meds.png"
+                    }
+                },
+                "product_rEFFVY": {
+                    "type": "product",
+                    "settings": {
+                        "name": "Sleep Aids",
+                        "image": "shopify:\/\/shop_images\/meds-2.png"
+                    }
+                },
+                "benefit_DcTRVk": {
+                    "type": "benefit",
+                    "settings": {
+                        "title": "Drug-free",
+                        "description": "No chemicals, supplements, or pharmaceuticals",
+                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
+                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                    }
+                },
+                "benefit_BRqika": {
+                    "type": "benefit",
+                    "settings": {
+                        "title": "No Side-Effects",
+                        "description": "Only your brain\/body’s natural optimization",
+                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
+                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                    }
+                },
+                "benefit_8JMABy": {
+                    "type": "benefit",
+                    "settings": {
+                        "title": "Non-Invasive",
+                        "description": "Works with the body. Applies directly on your skin. Pattern rests on the skin surface",
+                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
+                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                    }
+                },
+                "benefit_6xKBPF": {
+                    "type": "benefit",
+                    "settings": {
+                        "title": "Long-Lasting Benefits",
+                        "description": "With specific patches, the benefits can be felt in minutes.  The effects of all our patches last for24 hours.",
+                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
+                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                    }
+                },
+                "benefit_RGYX6G": {
+                    "type": "benefit",
+                    "settings": {
+                        "title": "Easy to Use",
+                        "description": "Simple and mess-free",
+                        "mark_1": "shopify:\/\/shop_images\/SuperPatch_Icons_Positive.svg",
+                        "mark_2": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_3": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg",
+                        "mark_4": "shopify:\/\/shop_images\/SuperPatch_Icons_Negative.svg"
+                    }
+                }
+            },
+            "block_order": [
+                "product_kHrbBN",
+                "product_6Ciapx",
+                "product_8YgyHr",
+                "product_rEFFVY",
+                "benefit_DcTRVk",
+                "benefit_BRqika",
+                "benefit_8JMABy",
+                "benefit_6xKBPF",
+                "benefit_RGYX6G"
+            ],
+            "name": "Benefits Comparison Table",
+            "settings": {
+                "heading": "THE BENEFITS",
+                "section_width": "grid",
+                "content_position": "text-left",
+                "color_bg": "#f2f2f4",
+                "color_text": "#151515",
+                "color_border": "#e2e2e2",
+                "disable_top_spacing": false,
+                "disable_bottom_spacing": false
+            }
+        }
+    },
+    "order": [
+        "main-collection-banner",
+        "rich_text_G9J4VY",
+        "multicolumn_tRTQVB",
+        "rich_text_Cbfgk8",
+        "rich_text_8Gdetq",
+        "multicolumn_ktjnWb",
+        "single_image_r7qjbk",
+        "custom_text_with_image_aira_tgFDLM",
+        "image_with_text_fUEeBk",
+        "rich_text_WcqK9d",
+        "text_with_icons_JxDqMW",
+        "single_image_fciVng",
+        "rich_text_yAWGDa",
+        "product-grid",
+        "product-grid-affiliates",
+        "image_with_text_J4KLfV",
+        "rich_text_4XbMEy",
+        "166366972953e881f5",
+        "benefits_aira_xaciDr"
+    ]
+}
