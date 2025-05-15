@@ -257,7 +257,7 @@
         //         "text": "",
         //         "lightbox_button": true,
         //         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        //         "video_hosted": "shopify:\/\/files\/videos\/super-patch-explain-video.mp4",
+        //         "video_hosted": "",
         //         "overlay_opacity": 0,
         //         "disable_top_spacing": true,
         //         "disable_bottom_spacing": true
@@ -482,7 +482,7 @@
             "type": "custom-product-onepager",
             "name": "Custom Product Onepager",
             "settings": {
-                "bottom_logo": "shopify:\/\/shop_images\/SuperPatchHorizontal_1.png"
+                "bottom_logo": ""
             }
         },
         "custom_liquid_rFRLYi": {

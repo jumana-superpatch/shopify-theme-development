@@ -6,7 +6,7 @@
         "template--18432550076699__b20d57f6-9be8-4594-9c5d-6deb2ed4bc73-1681302269936075c0-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about2.jpg",
+            "image": "",
             "slide_link": "",
             "video_background": false,
             "subheading": "OUR STORY",
@@ -31,8 +31,8 @@
         "d2ba1b12-84bf-4c9d-a9be-86754a8170eb": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about003.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/about-m7.jpg",
+            "image": "",
+            "mobile_image": "",
             "slide_link": "",
             "video_background": false,
             "subheading": "",
@@ -57,7 +57,7 @@
         "de0ad86d-95d0-4bc6-b9c7-f60ce6ef0118": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about004.jpg",
+            "image": "",
             "slide_link": "",
             "video_background": false,
             "subheading": "",
@@ -82,8 +82,8 @@
         "37d0de62-092c-4cb6-8ee8-ec36bed455d7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/about007.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/about-m08.jpg",
+            "image": "",
+            "mobile_image": "",
             "slide_link": "",
             "video_background": false,
             "subheading": "✲ ✲ ✲",

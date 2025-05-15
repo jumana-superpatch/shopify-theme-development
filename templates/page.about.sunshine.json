@@ -176,7 +176,7 @@
           "type": "button",
           "settings": {
             "link_label": "Learn More",
-            "link": "shopify:\/\/pages\/materials",
+            "link": "",
             "button_outline": false
           }
         }

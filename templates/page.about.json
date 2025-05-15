@@ -144,7 +144,7 @@
           "type": "button",
           "settings": {
             "button_text": "LEARN MORE",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_link": "",
             "button_outline": false
           }
         }
@@ -185,7 +185,7 @@
           "type": "text",
           "settings": {
             "text": "SUMMER EDIT",
-            "link": "shopify:\/\/collections\/summer-edit",
+            "link": "",
             "outline_text": true
           }
         },
@@ -193,7 +193,7 @@
           "type": "text",
           "settings": {
             "text": "ICONIC GOODS",
-            "link": "shopify:\/\/collections\/iconic",
+            "link": "",
             "outline_text": false
           }
         },
@@ -201,7 +201,7 @@
           "type": "text",
           "settings": {
             "text": "READY TO WEAR",
-            "link": "shopify:\/\/collections\/ready-to-wear",
+            "link": "",
             "outline_text": true
           }
         },
@@ -209,7 +209,7 @@
           "type": "text",
           "settings": {
             "text": "HAUTE COUTURE",
-            "link": "shopify:\/\/collections\/haute-couture",
+            "link": "",
             "outline_text": false
           }
         }

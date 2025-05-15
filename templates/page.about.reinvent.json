@@ -65,7 +65,7 @@
         "template--17027745022267__5bad47dd-05dc-464b-9171-7b1563b93a84-1670399999b1d81fbb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/c14.jpg",
+        "image": "",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -103,7 +103,7 @@
         "template--17027745022267__9b5d80c3-a712-486c-be14-8ed726a999d7-1670399999b1d81fbb-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/c15.jpg",
+        "image": "",
         "use_video": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -125,7 +125,7 @@
         "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-1.png",
+            "image": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -137,7 +137,7 @@
         "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo2.png",
+            "image": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -149,7 +149,7 @@
         "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo3.png",
+            "image": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -161,7 +161,7 @@
         "template--17027745022267__19ffe627-a09d-44d7-9e06-cfde64314179-16704012079c5969f5-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo4.png",
+            "image": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -216,7 +216,7 @@
           "type": "button",
           "settings": {
             "button_text": "VIEW ALL SERUMS",
-            "button_link": "shopify:\/\/collections\/serum",
+            "button_link": "",
             "button_outline": true
           }
         }
@@ -227,7 +227,7 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/c17.jpg",
+        "image": "",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-500",
@@ -253,7 +253,7 @@
           "type": "button",
           "settings": {
             "button_text": "View all products",
-            "button_link": "shopify:\/\/collections\/skincare",
+            "button_link": "",
             "button_outline": true
           }
         }
@@ -264,7 +264,7 @@
       ],
       "settings": {
         "section_width": "full-width-row-full",
-        "image": "shopify:\/\/shop_images\/c18.jpg",
+        "image": "",
         "image_parallax": true,
         "desktop_height": "desktop-height-450",
         "mobile_height": "mobile-height-500",
