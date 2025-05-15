@@ -1,0 +1,123 @@
+<style>
+  .table {
+    width: 100%;
+    text-align: center;
+    border: none;
+  }
+
+  .table th,
+  .table td {
+    border: none;
+    padding: 1rem;
+    vertical-align: middle;
+  }
+
+  .table td:first-child {
+    text-align: left;
+  }
+
+  .table thead th:first-of-type {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.288px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  .table td img {
+    max-width: 24px;
+  }
+
+  .table tbody td:nth-child(2),
+  .table tbody td:nth-child(3),
+  .table tbody td:nth-child(4),
+  .table tbody td:nth-child(5) {
+    border-top: 1px solid #C8C8C8;
+  }
+
+  .table tbody tr td:first-of-type {
+    text-align: left;
+  }
+
+  .product-title {
+    margin-top: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .benefit-title {
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #101010 !important;
+  }
+
+  .benefit-desc {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%;
+      color: #4D4D4D;
+  }
+</style>
+
+{% assign products = blocks | where: 'type', 'product' %}
+{% assign benefits = blocks | where: 'type', 'benefit' %}
+
+<table class="table benefits-comparison-table">
+  <thead>
+    <tr>
+      <th>{{ section.settings.heading }}</th>
+      {% for product in products %}
+        <th>
+          {% if product.settings.image %}
+            <img
+              src="{{ product.settings.image | image_url: width: 80 }}"
+              alt="{{ product.settings.name }}"
+              width=""
+              height=""
+            >
+          {% endif %}
+          <div class="product-title">{{ product.settings.name }}</div>
+        </th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for benefit in benefits %}
+      <tr>
+        <td width="30%">
+          <div class="benefit-title">{{ benefit.settings.title }}</div>
+          {% if benefit.settings.description %}
+            <div class="benefit-desc">
+              {{ benefit.settings.description }}
+            </div>
+          {% endif %}
+        </td>
+        {% for product in products %}
+          {% assign index = forloop.index %}
+          {% assign mark_key = 'mark_' | append: index %}
+          {% assign mark = benefit.settings[mark_key] %}
+          <td>
+            {% if mark != blank %}
+              <img
+                src="{{ mark | image_url: width: 24 }}"
+                alt="Mark for {{ product.settings.name }}"
+                width=""
+                height=""
+              >
+            {% else %}
+              <span>-</span>
+            {% endif %}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

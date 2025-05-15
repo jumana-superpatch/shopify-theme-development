@@ -1,0 +1,78 @@
+{% if section.settings.enable %}
+  <product-sheet-modal></product-sheet-modal>
+  <style>
+      product-sheet-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 9999;
+      overflow: auto;
+      padding: 2rem;
+    }
+
+    product-sheet-modal section {
+      background: #fff;
+      max-width: fit-content;
+      margin: auto;
+    }
+
+    product-sheet-modal.active {
+      display: block;
+    }
+  </style>
+  <script>
+  async function showModal(product, event, elm) {
+    event.preventDefault();
+    let productCard = sessionStorage.getItem(`product-card-${product}`);
+    
+    if (!productCard) {
+      productCard = await fetch(`/products/${product}?section_id=template--17810038390982__custom_product_onepager_fMb6DF`)
+        .then(res => res.text());
+      sessionStorage.setItem(`product-card-${product}`, productCard);
+    }
+  
+    let productCardHTML = new DOMParser().parseFromString(productCard, "text/html").querySelector("section");
+    const modal = document.querySelector("product-sheet-modal");
+  
+    modal.innerHTML = productCardHTML.outerHTML;
+    modal.classList.add("active");
+  
+    modal.querySelector("button[type=submit]")?.addEventListener("click", function () {
+      modal.innerHTML = "";
+      modal.classList.remove("active");
+      elm.closest("product-card").querySelector(".product-card--add-to-cart-button").click();
+    });
+
+    modal.querySelector(".close-button")?.addEventListener("click", function () {
+      modal.innerHTML = "";
+      modal.classList.remove("active");
+    });
+    
+    
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.innerHTML = "";
+        modal.classList.remove("active");
+      }
+    });
+  }
+  </script>
+{% else %}
+  <script>
+    function showModal(){return ;}
+  </script>
+{% endif %}
+{% schema %}
+{
+  "name": "Product Card Modal",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable",
+      "default": true,
+      "label": "Enable Product Sheet Modal"
+    }
+  ]
+}
+{% endschema %}

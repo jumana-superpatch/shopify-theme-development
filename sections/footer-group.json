@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "919dfa59-648f-4330-afcc-8bb0c24dab8f": {
+          "type": "text",
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "image": "shopify://shop_images/SuperPatchHorizontal_1.png",
+            "text": "<p>350 Britannia Rd E, Mississauga ON L4Z 1X9</p><p>Contact: <a href=\"mailto:channel-support@superpatch.com\" target=\"_blank\" title=\"mailto:channel-support@superpatch.com\">channel-support@superpatch.com</a></p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
+        },
+        "social_e6GW7d": {
+          "type": "social",
+          "settings": {
+            "column_size": "medium",
+            "title": "Find Us"
+          }
+        },
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "NEWSLETTER",
+            "text": "<p>Sign up to be the first to receive exclusive updates from The Super Patch Company</p>"
+          }
+        },
+        "text_cVVzWi": {
+          "type": "text",
+          "settings": {
+            "column_size": "full",
+            "title": "",
+            "text": "<p>The statements made in connection with these products have not been reviewed by the Food and Drug Administration (FDA), and the products’ efficacy has not been confirmed through Food and Drug Administration-approved studies. This product is not intended to diagnose, treat, cure or prevent any disease.The statements made in connection with these products have not been reviewed by the Food and Drug Administration (FDA), and the products’ efficacy has not been confirmed through Food and Drug Administration-approved studies. This product is not intended to diagnose, treat, cure or prevent any disease.</p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "919dfa59-648f-4330-afcc-8bb0c24dab8f",
+        "social_e6GW7d",
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2",
+        "text_cVVzWi"
+      ],
+      "custom_css": [
+        "img {-webkit-filter: invert(1);}"
+      ],
+      "settings": {
+        "full_width": false,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": false,
+        "enable_follow_on_shop": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

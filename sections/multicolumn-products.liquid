@@ -1,0 +1,484 @@
+{% comment %} custom css {% endcomment %}
+<style>
+  product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+  }
+
+  .multicolumn__column {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+
+  .multicolumn__column:hover {
+    filter: none;
+  }
+
+  .view-button {
+    margin: 4px;
+  }
+
+  .text-button {
+    justify-content: center;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .view-button .button:hover {
+    color: #fff !important;
+  }
+</style>
+
+{{- 'multicolumn.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+  assign section_heading = section.settings.heading
+  assign section_heading_left = section.settings.heading_left
+  assign section_description = section.settings.description
+  assign full_width = section.settings.full_width
+  assign columns_desktop = section.settings.columns_desktop
+  assign heading_size = section.settings.heading_size
+  assign mobile_swipe = section.settings.mobile_swipe
+  assign image_ratio = section.settings.image_ratio
+  assign image_full_width = section.settings.image_full_width
+  assign display_type = section.settings.display_type
+  assign text_alignment = section.settings.text_alignment
+  assign show_progress_bar = section.settings.show_progress_bar
+  assign disable_top_spacing = section.settings.disable_top_spacing
+  assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+  assign products_for_display = section.settings.products_for_products_list
+
+  assign show_product_image = section.settings.show_product_image
+  assign show_product_title = section.settings.show_product_title
+  assign show_product_description = section.settings.show_product_description
+
+  if section.settings.products_list == 'collection'
+    if section.settings.collection_for_products_list != ''
+      assign products_for_display = section.settings.collection_for_products_list.products
+    elsif template.name == 'collection'
+      assign products_for_display = collection.products
+    endif
+  endif
+
+  case columns_desktop
+    when 2
+      assign columns_desktop_class = 'medium-6'
+    when 3
+      assign columns_desktop_class = 'medium-4'
+    when 4
+      assign columns_desktop_class = 'medium-3'
+    when 5
+      assign columns_desktop_class = 'medium-1/5 large-1/5'
+    when 6
+      assign columns_desktop_class = 'medium-4 large-2'
+  endcase
+
+  if display_type == 'carousel'
+    assign element = 'slide-show'
+  else
+    assign element = 'div'
+  endif
+-%}
+<div class="multicolumn text-{{ text_alignment }}{% if mobile_swipe and display_type == 'grid' %} swipe-on-mobile{% endif %} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row{% if full_width %} full-width-row{% endif %}">
+    <div class="small-12 columns">
+      {% render 'section-header',
+        section_heading: section_heading,
+        section_description: section_description,
+        section_heading_left: section_heading_left
+      %}
+      <div class="multicolumn__inner display-type--{{ display_type }}">
+        <{{ element }} class="row align-stretch no-padding {{ display_type }}">
+          {%- for product in products_for_display -%}
+            {%- liquid
+              assign product_image = product.images.first
+              assign product_title = product.title
+              assign product_description = product.description
+
+              if show_product_image == 'metafield'
+                assign product_image = product.metafields.carousel_card.image.value
+              endif
+              if show_product_title == 'metafield'
+                assign product_title = product.metafields.carousel_card.title.value
+              endif
+              if show_product_description == 'metafield'
+                assign product_description = product.metafields.carousel_card.description.value
+              endif
+
+              assign is_purchasable = false
+              if product.available and product.variants.size == 1
+                assign is_purchasable = true
+              endif
+            -%}
+            <product-card class="multicolumn__column small-12 {{ columns_desktop_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
+              {% if show_product_title != hide %}
+                {%- liquid
+                  assign ratio = 1
+                  assign max_width = product_image.width | divided_by: 2 | append: 'px'
+                  assign image_link = product.url | within: collection | append: '?section='
+
+                  if image_ratio == 'adapt'
+                    assign ratio = product_image.aspect_ratio
+                  endif
+                  if image_full_width
+                    assign max_width = '100%'
+                  endif
+                -%}
+                <figure class="multicolumn__image" style="width: {{ max_width }};">
+                  <div
+                    class="multicolumn__image--inner aspect-ratio aspect-ratio--{{ image_ratio }}"
+                    style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
+                  >
+                    {% if image_link != blank %}
+                      <a href="{{ image_link }}">
+                    {% endif %}
+                    {%- render 'responsive-image', image: product_image, sizes: '407x0,814x0', retina: true -%}
+                    {% if image_link != blank %}
+                      </a>
+                    {% endif %}
+                  </div>
+                </figure>
+              {% endif %}
+              {% if show_product_title != 'hide' %}
+                <h4 class="{{ heading_size }}">{{ product_title | newline_to_br }}</h4>
+              {% endif %}
+              {% if show_product_description != 'hide' %}
+                <div class="rte">{{ product_description }}</div>
+              {% endif %}
+
+              {%- liquid
+                assign button_tag = 'button'
+                if product.selected_or_first_available_variant.available == false
+                  assign button_content = 'products.product.sold_out' | t
+                else
+                  if product.metafields.theme.preorder and product.available
+                    assign button_content = 'products.product.pre_order' | t
+                  else
+                    if is_purchasable
+                      assign button_content = 'products.product.add_to_cart' | t
+                    else
+                      assign button_content = 'products.product.choose_options' | t
+                    endif
+                  endif
+
+                  unless is_purchasable
+                    assign button_tag = 'quick-view'
+                  endunless
+                endif
+              -%}
+              <div class="product-card--add-to-cart-button-container">
+                <{{ button_tag }}
+                  class="product-card--add-to-cart-button {% if is_purchasable %} product-card--add-to-cart-button-simple{% endif %} button btn-hover-black"
+                  data-product-id="{{ product.selected_or_first_available_variant.id }}"
+                  data-product-handle="{{ product.handle }}"
+                  tabindex="-1"
+                  {% if product.selected_or_first_available_variant.available == false %}
+                    disabled
+                  {% endif %}
+                >
+                  <span class="loading-overlay">{% render 'svg-icons' with 'thb-loading' %}</span>
+                  <span class="product-card--add-to-cart-text">{{ button_content }}</span>
+                </{{ button_tag }}>
+              </div>
+
+              <div class="view-button">
+                <a
+                  class="text-button button outline"
+                  href="{{ product.url | within: collection }}"
+                  onclick="showModal('{{ product.handle }}',event,this)"
+                >
+                  <span>{{ 'View info' }}</span>
+                </a>
+              </div>
+            </product-card>
+          {%- endfor -%}
+          {%- if display_type == 'carousel' -%}
+            {%- render 'slideshow-arrows' -%}
+          {%- endif -%}
+        </{{ element }}>
+        {%- if display_type == 'carousel' and show_progress_bar -%}
+          <div class="flickity-progress">
+            <div class="flickity-progress--bar"></div>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Multicolumn Products",
+  "class": "section-multicolumn-products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Multicolumn"
+    },
+    {
+      "type": "checkbox",
+      "id": "heading_left",
+      "default": false,
+      "label": "Left align heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Add a short description for this section</p>"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Make section full width",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "display_type",
+      "options": [
+        {
+          "value": "grid",
+          "label": "Grid"
+        },
+        {
+          "value": "carousel",
+          "label": "Carousel"
+        }
+      ],
+      "default": "grid",
+      "label": "Display type"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "portrait",
+          "label": "Portrait"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "circle",
+          "label": "Circle"
+        }
+      ],
+      "default": "adapt",
+      "label": "Image ratio"
+    },
+    {
+      "type": "header",
+       "content": "Products Picker"
+    },
+    {
+      "type": "select",
+      "id": "products_list",
+      "options": [
+        {
+          "value": "collection",
+          "label": "Use collection products"
+        },
+        {
+          "value": "custom",
+          "label": "Use custom list"
+        }
+      ],
+      "default": "collection",
+      "label": "Products list"
+    },
+    {
+      "type": "collection",
+      "id": "collection_for_products_list",
+      "label": "Select collection",
+      "info": "If no collection is specified, the current collection will be used. If used on a non-collection template, you must select a collection."
+    },
+    {
+      "type": "product_list",
+      "id": "products_for_products_list",
+      "label": "Select products"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 4,
+      "max": 6,
+      "step": 1,
+      "default": 6,
+      "label": "Number of columns on desktop"
+    },
+    {
+      "type": "select",
+      "id": "show_product_image",
+      "label": "Show products' image",
+      "options": [
+        {
+          "label": "Hide",
+          "value": "hide"
+        },
+        {
+          "label": "Metafield",
+          "value": "metafield"
+        },
+        {
+          "label": "Default",
+          "value": "default"
+        }
+      ],
+      "default": "default",
+      "info": "To set metafield, visit product pages."
+    },
+    {
+      "type": "select",
+      "id": "show_product_title",
+      "label": "Show products' title",
+      "options": [
+        {
+          "label": "Hide",
+          "value": "hide"
+        },
+        {
+          "label": "Metafield",
+          "value": "metafield"
+        },
+        {
+          "label": "Default",
+          "value": "default"
+        }
+      ],
+      "default": "default",
+      "info": "To set metafield, visit product pages."
+    },
+    {
+      "type": "select",
+      "id": "show_product_description",
+      "label": "Show products' description",
+      "options": [
+        {
+          "label": "Hide",
+          "value": "hide"
+        },
+        {
+          "label": "Metafield",
+          "value": "metafield"
+        },
+        {
+          "label": "Default",
+          "value": "default"
+        }
+      ],
+      "default": "default",
+      "info": "To set metafield, visit product pages."
+    },
+    {
+        "type": "checkbox",
+        "id": "image_full_width",
+        "label": "Fit image to column",
+        "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left",
+      "label": "Content alignment"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "label": "Content heading size",
+      "options": [
+        {
+          "value": "h3",
+          "label": "Extra Large"
+        },
+        {
+          "value": "h4",
+          "label": "Large"
+        },
+        {
+          "value": "h5",
+          "label": "Medium"
+        },
+        {
+          "value": "h6",
+          "label": "Small"
+        }
+      ],
+      "default": "h5"
+    },
+    {
+      "type": "header",
+      "content": "Grid"
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_swipe",
+      "default": false,
+      "label": "Enable swipe on mobile"
+    },
+    {
+      "type": "header",
+      "content": "Carousel"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_progress_bar",
+      "label": "Show progress bar",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_top_spacing",
+      "default": false,
+      "label": "Remove top spacing"
+    },
+    {
+      "type": "checkbox",
+      "id": "disable_bottom_spacing",
+      "default": false,
+      "label": "Remove bottom spacing"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multicolumn Products",
+      "category": "Custom"
+    }
+  ],
+  "enabled_on": {
+    "templates": [
+      "*"
+    ],
+    "groups": [
+      "header",
+      "footer"
+    ]
+  }
+}
+{% endschema %}
