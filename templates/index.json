@@ -15,8 +15,8 @@
         "slide_exeqmw": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/BG.png",
-            "mobile_image": "shopify://shop_images/chiro-header_90949a43-8a53-4205-97c5-04b12cf2d882.png",
+            "image": "",
+            "mobile_image": "",
             "slide_link": "",
             "video_background": false,
             "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
@@ -35,7 +35,7 @@
             "button_1_link": "#shopify-section-template--17345908670662__1734368449c16b1f2d",
             "button_1_outline": false,
             "button_2_text": "Shop Now",
-            "button_2_link": "shopify://collections/all",
+            "button_2_link": "",
             "button_2_outline": false
           }
         }
@@ -70,7 +70,7 @@
         "image_KjHUBc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/cbs.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -79,7 +79,7 @@
         "image_cdWXqx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/forbes.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -88,7 +88,7 @@
         "image_94pfVx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fortune.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -97,7 +97,7 @@
         "image_B4Jgm3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/fox.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -106,7 +106,7 @@
         "image_A7WKC6": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/nbc.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -115,7 +115,7 @@
         "image_PtqHt9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/market-watch.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -124,7 +124,7 @@
         "image_fJRFic": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/medium.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -133,7 +133,7 @@
         "image_B4yaCP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/yahoo-finance.png",
+            "image": "",
             "link": "",
             "heading": "",
             "text": ""
@@ -209,28 +209,28 @@
         "logo_QxDM4t": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Infographic.png",
+            "image": "",
             "link": ""
           }
         },
         "logo_3cjwbf": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Infographic-1.png",
+            "image": "",
             "link": ""
           }
         },
         "logo_GVCbEg": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Infographic-2.png",
+            "image": "",
             "link": ""
           }
         },
         "logo_wF6rRb": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Infographic-3.png",
+            "image": "",
             "link": ""
           }
         }
@@ -254,8 +254,8 @@
     "single_image_DqK7Uf": {
       "type": "single-image",
       "settings": {
-        "image": "shopify://shop_images/BG-2.png",
-        "image_mobile": "shopify://shop_images/chiro_teen_girl_having_chiropractic_back_adjustment_osteopathy_physiotherapy_kinesiology_bad_posture_2150779305_1000x800_1x_7bbe55c3-1799-4f3a-95aa-fd3a7c06e205.webp",
+        "image": "",
+        "image_mobile": "",
         "full_width": true,
         "disable_top_spacing": true,
         "disable_bottom_spacing": true
@@ -464,9 +464,9 @@
         "column_iyk3dE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_freedom_colour_576x1024_2x_e1bbc1b0-4c2e-4ac8-a736-f73acd42182b.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/freedom-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Pain relief is a natural fit for many of  your patients. This patch is applied as close as possible to the source of pain  or discomfort. The neural response  helps activate the brain’s pain management capabilities. </p>",
@@ -477,9 +477,9 @@
         "column_PRJqQa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_liberty_colour_576x1024_2x_70f6b5fa-bd42-453d-a058-32f76c251cdb.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/liberty-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Your patients want to move more confidently. This patch is designed to help trigger the brain-to-body neural response for enhanced balance and stability.</p>",
@@ -490,9 +490,9 @@
         "column_Vdm3ef": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_rem_colour_576x1024_2x_eef27c2f-4e5a-41aa-bbba-24dae61e50da.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/rem-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>It goes without saying that sleep can be the first casualty of musculoskeletal disorders. This patch helps activate the brain’s natural sleep stimulation for longer, deeper slumber. Can be used in conjunction with Freedom. </p>",
@@ -503,9 +503,9 @@
         "column_tpnU8g": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_victory_colour_576x1024_2x_8cef2b11-a3db-4085-8918-f90f7576ec52.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/victory-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>For active lifestyle patients looking to level up their physical capabilities. Increased power, agility, speed and other benefits may be activated. </p>",
@@ -516,9 +516,9 @@
         "column_NLFjUL": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_focus_colour_576x1024_2x_42addf05-a82f-482d-ab1f-1465ca3b533f.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/focus-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Musculoskeletal issues can impede cognitive function. This patch can help trigger the brain’s ability to heighten concentration and attentiveness. </p>",
@@ -529,9 +529,9 @@
         "column_hgDaah": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_ignite_colour_576x1024_2x_fcf2834f-7631-44cd-9891-e2b714afb468.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/ignite-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Assist your clients with weight management. Ignite can help support the body’s own neural response networks for more effective calorie-burning.</p>",
@@ -542,9 +542,9 @@
         "column_pM9Prw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_kickit_colour_576x1024_2x_ada48259-3b46-4af3-a62f-0a598c712334.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/kick-it-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Assist your clients with weight management through impulse control. This patch can help support the body’s own neural response networks for positive thinking and behavior.</p>",
@@ -555,9 +555,9 @@
         "column_WMGUAr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_defend_colour_576x1024_2x_ff7b20e6-8aeb-400e-bbc3-fb7c6f0e4b32.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/defend-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>When you’re actively treating a  client’s condition, nothing slows down progress like sickness. This patch may help support their immune system for more effective treatment.</p>",
@@ -568,9 +568,9 @@
         "column_ehctJU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_joy_colour_576x1024_2x_08a03f11-4531-4067-8a80-744ffcf74d33.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/joy-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>A client’s emotional state also requires support. This patch can help bolster a more positive outlook in the mind to assist the healing of the body. </p>",
@@ -581,9 +581,9 @@
         "column_m3Chgn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_peace_colour_576x1024_2x_b4173f2b-40ec-461a-b33d-61cb323c3dd2.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/peace-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Stress is a negative force in everyone’s life. It can also be a contributor to  musculoskeletal issues. This patch can help support a patient’s ability to positively deal with stress. </p>",
@@ -594,9 +594,9 @@
         "column_TrQRzK": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_rocket_colour_576x1024_2x_e11daa7f-6354-4c5b-b436-7930ed8e176a.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/rocket-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Dealing with musculoskeletal disorders can affect every aspect of a patient’s daily life. This patch is designed to help provide hormonal support for anyone who needs to enhance their performance and overall well-being.</p>",
@@ -607,7 +607,7 @@
         "column_Y7jG6w": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_boost_colour_576x1024_2x_0bd20edb-8a8c-48db-863e-044a9a0a0639.webp",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -620,9 +620,9 @@
         "column_rNUzFz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_lumi_colour_576x1024_2x_d5e1d6c8-de6a-445a-a752-7d1179759cea.webp",
+            "image": "",
             "image_full_width": false,
-            "image_link": "shopify://products/lumi-patch",
+            "image_link": "",
             "retina": true,
             "title": "",
             "text": "<p>Musculoskeletal disorders may contribute to stress-related skin issues . This patch can help support a healthy complexion in combination with a good diet, regular activity and proper sleep.</p>",
@@ -702,7 +702,7 @@
         "column_fqC6MD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Div_2x_726e1cd2-fa15-4c77-83ac-b9a469270a05.png",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -715,7 +715,7 @@
         "column_9FzUnj": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Div_2x-1.png",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -728,7 +728,7 @@
         "column_WkddP6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Div_2x-2.png",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -860,7 +860,7 @@
             "title": "Haptic Vibrotactile Trigger Technology – Disrupting the Neuromatrix to Reduce Pain Severity and Interference",
             "text": "<p><strong>Anesthesia & Pain Research<br/></strong>J. Gudin <strong>· </strong>D. Dietze <strong>· </strong>G. Dhaliwal <strong>· </strong>P. Hurwitz</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Haptic-Vibrotactile-Trigger-Technology-Disrupting-the-Neuromatrix-to-Reduce-Pain-Severity-and-Interference.pdf?v=1734472120"
+            "link": ""
           }
         },
         "column_pkPJai": {
@@ -873,7 +873,7 @@
             "title": "Plantar Neuro-Receptor Activation In Improving Overall Clinical Function and Decreasing Pain and Stiffness in TKA – RCT Study",
             "text": "<p><strong>VOXX HPT Clinical Studies<br/></strong>M. Woolfrey <strong>· </strong>C. Bolton <strong>· </strong>K. Woolfrey <strong>· </strong>D. Warchuk</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Plantar-Neuro-Receptor-Activation-In-Improving-Overall-Clinical-Function-and-Decreasing-Pain-and-Stiffness-in-TKA-RCT-Study.pdf?v=1734472120"
+            "link": ""
           }
         },
         "column_rn9gAQ": {
@@ -886,7 +886,7 @@
             "title": "Changes in Electroencephalogram (EEG) – Neuromatrix and Pain Modulation – Vibrotactile Trigger Technology",
             "text": "<p><strong>Anesthesia & Pain Research<br/></strong>B. S. Dhaliwal <strong>· </strong>J. Haddad <strong>· </strong>M. Debrincat <strong>· </strong>P. Hurwitz</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Changes-in-Electroencephalogram-EEG-Neuromatrix-and-Pain-Modulation-Vibrotactile-Trigger-Technology.pdf?v=1734472120"
+            "link": ""
           }
         }
       },
@@ -941,7 +941,7 @@
         "text_4bAJcG"
       ],
       "settings": {
-        "image": "shopify://shop_images/scientist.png",
+        "image": "",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": false,
@@ -970,7 +970,7 @@
             "title": "Haptic Vibrotactile Trigger Technology – Disrupting the Neuromatrix to Reduce Pain Severity and Interference",
             "text": "<p><strong>Anesthesia & Pain Research<br/></strong>J. Gudin <strong>· </strong>D. Dietze <strong>· </strong>G. Dhaliwal <strong>· </strong>P. Hurwitz</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Haptic-Vibrotactile-Trigger-Technology-Disrupting-the-Neuromatrix-to-Reduce-Pain-Severity-and-Interference.pdf?v=1734472120"
+            "link": ""
           }
         },
         "column_pkPJai": {
@@ -982,7 +982,7 @@
             "title": "Plantar Neuro-Receptor Activation In Improving Overall Clinical Function and Decreasing Pain and Stiffness in TKA – RCT Study",
             "text": "<p><strong>VOXX HPT Clinical Studies<br/></strong>M. Woolfrey <strong>· </strong>C. Bolton <strong>· </strong>K. Woolfrey <strong>· </strong>D. Warchuk</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Plantar-Neuro-Receptor-Activation-In-Improving-Overall-Clinical-Function-and-Decreasing-Pain-and-Stiffness-in-TKA-RCT-Study.pdf?v=1734472120"
+            "link": ""
           }
         },
         "column_rn9gAQ": {
@@ -994,7 +994,7 @@
             "title": "Changes in Electroencephalogram (EEG) – Neuromatrix and Pain Modulation – Vibrotactile Trigger Technology",
             "text": "<p><strong>Anesthesia & Pain Research<br/></strong>B. S. Dhaliwal <strong>· </strong>J. Haddad <strong>· </strong>M. Debrincat <strong>· </strong>P. Hurwitz</p>",
             "link_label": "Download",
-            "link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Changes-in-Electroencephalogram-EEG-Neuromatrix-and-Pain-Modulation-Vibrotactile-Trigger-Technology.pdf?v=1734472120"
+            "link": ""
           }
         }
       },
@@ -1049,7 +1049,7 @@
         "text_HhpcCd"
       ],
       "settings": {
-        "image": "shopify://shop_images/dhaliwai.png",
+        "image": "",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -1072,7 +1072,7 @@
         "column_6CXBRx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/drug-free.png",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -1085,7 +1085,7 @@
         "column_3MtzJf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/skinFree.png",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -1152,7 +1152,7 @@
           "type": "button",
           "settings": {
             "button_text": "Download",
-            "button_link": "https://cdn.shopify.com/s/files/1/0642/5588/5510/files/Improvement-in-Balance-and-Stability-Using-a-Novel-Sensory-Application-Haptic-Vibrotactile-Trigger-Technology.pdf?v=1734472120"
+            "button_link": ""
           }
         }
       },
@@ -1167,7 +1167,7 @@
         "@media all and (max-width: 799px) {.image-with-text__content--inner {text-align: center; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/Col.png",
+        "image": "",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -1228,7 +1228,7 @@
         "@media all and (max-width: 799px) {.image-with-text__content--inner {text-align: center; }}"
       ],
       "settings": {
-        "image": "shopify://shop_images/chiro_liberty_colour_576x1024_2x_70f6b5fa-bd42-453d-a058-32f76c251cdb.webp",
+        "image": "",
         "use_video": false,
         "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "video_autoplay": true,
@@ -1251,7 +1251,7 @@
         "column_eHjbUT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_jgudin_576x768_cb7aca5f-9b0b-466a-a692-dd883a08077b.webp",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -1264,7 +1264,7 @@
         "column_XdVjHE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_jglazer_576x768_2x_5fb7fd00-1280-411d-9fd5-d1477583f4ca.webp",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -1277,7 +1277,7 @@
         "column_EtwExY": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_spierre_576x768_2x_b24f08f1-346c-4b7a-a9c3-8ca2f3c0f738.webp",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
@@ -1290,7 +1290,7 @@
         "column_fgBRnD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/chiro_kmosebach_576x768_2x_659c8222-4e52-4644-a22f-6b000014c168.webp",
+            "image": "",
             "image_full_width": false,
             "image_link": "",
             "retina": true,
