@@ -462,7 +462,7 @@
       "settings": {
         "heading": "YOU MAY ALSO LIKE",
         "heading_left": true,
-        "description": "<p>Combine your style with these products.</p>",
+        "description": "<p>Combine your style with these products</p>",
         "full_width": true,
         "mobile_swipe": true,
         "disable_top_spacing": false,
