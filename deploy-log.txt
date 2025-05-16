@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 [2025-05-16T21:54:42.535Z] Changed files before push:
+=======
+[2025-05-16T21:54:51.176Z] Changed files before push:
+>>>>>>> 7fe59bbebd62d59202ff8736ce05653bbda8388f
   - emplates/index.json
