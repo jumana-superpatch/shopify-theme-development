@@ -75,6 +75,28 @@ function logGitChanges() {
   }
 }
 
+// Log files changed in the latest commit
+function logLastCommitFiles() {
+  try {
+    const output = execSync('git show --name-only --pretty="" HEAD', {
+      cwd: process.cwd(),
+      encoding: 'utf-8'
+    });
+
+    const files = output
+      .split('\n')
+      .filter(f => f.trim().length > 0);
+
+    if (files.length > 0) {
+      log(`Files changed in the latest commit:\n${files.map(f => `  - ${f}`).join('\n')}`);
+    } else {
+      log('No files changed in the latest commit.');
+    }
+  } catch (err) {
+    log(`Error detecting files in the latest commit: ${err.message}`);
+  }
+}
+
 // Main execution
 (function main() {
   try {
@@ -88,6 +110,7 @@ function logGitChanges() {
     }
 
     logGitChanges();
+    logLastCommitFiles();
     log('--- Cleanup complete ---\n');
   } catch (err) {
     log(`Fatal error: ${err.message}`);
