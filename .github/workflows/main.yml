@@ -18,7 +18,7 @@ jobs:
           node-version: 18.x
 
       - name: Run media cleaner script
-        run: node clean-media.js
+        run: node clean-theme-media.js
 
       - name: Commit and push changes
         env:
