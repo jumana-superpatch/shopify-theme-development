@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const THEME_DIR = './'; // root of the theme directory
 const LOG_FILE = path.join(__dirname, 'deploy-log.txt');
@@ -25,14 +26,30 @@ function cleanMediaLinks(file) {
   let content = fs.readFileSync(file, 'utf-8');
   const original = content;
 
-  // Replace Shopify-hosted media URLs and shopify: links with empty string
+  // Replace Shopify-hosted media and shopify: references with empty string
   content = content.replace(/"(https:\/\/cdn\.shopify\.com[^"]+|shopify:[^"]+|shopify:)"/g, '""');
 
   if (content !== original) {
     fs.writeFileSync(file, content, 'utf-8');
-    log(`Cleaned: ${file}`);
   }
 }
 
-// Walk the theme directory and clean media links
+// 1. Run cleanup
 walk(THEME_DIR, cleanMediaLinks);
+
+// 2. Get Git-changed files and log them
+try {
+  const output = execSync('git status --porcelain', { encoding: 'utf-8' });
+  const changedFiles = output
+    .split('\n')
+    .filter(Boolean)
+    .map(line => line.trim().slice(3)); // skip status prefix like " M", "A ", etc.
+
+  if (changedFiles.length > 0) {
+    log(`Changed files before push:\n${changedFiles.map(f => `  - ${f}`).join('\n')}`);
+  } else {
+    log('No changed files to log.');
+  }
+} catch (err) {
+  log(`Error detecting changed files: ${err.message}`);
+}
