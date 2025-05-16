@@ -44,7 +44,7 @@ function cleanMediaLinks(file) {
       log(`Cleaned media in: ${file}`);
     }
   } catch (err) {
-    log(`Error processing file ${file}: ${err.message}`);
+    log(`Error processing file ${file}: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
 
@@ -71,7 +71,7 @@ function logGitChanges() {
       log('No changed files to log.');
     }
   } catch (err) {
-    log(`Error detecting changed files: ${err.message}`);
+    log(`Error detecting changed files: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
 
@@ -93,7 +93,7 @@ function logLastCommitFiles() {
       log('No files changed in the latest commit.');
     }
   } catch (err) {
-    log(`Error detecting files in the latest commit: ${err.message}`);
+    log(`Error detecting files in the latest commit: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
 
@@ -113,6 +113,6 @@ function logLastCommitFiles() {
     logLastCommitFiles();
     log('--- Cleanup complete ---\n');
   } catch (err) {
-    log(`Fatal error: ${err.message}`);
+    log(`Fatal error: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 })();
