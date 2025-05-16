@@ -4,6 +4,7 @@ const { execSync } = require('child_process');
 
 const THEME_DIR = './'; // Root of the theme directory
 const LOG_FILE = path.join(__dirname, 'deploy-log.txt');
+const updatedFiles = [];
 
 // Log utility
 function log(message) {
@@ -18,23 +19,32 @@ function walk(dir, callback) {
   fs.readdirSync(dir).forEach((f) => {
     const dirPath = path.join(dir, f);
     const isDirectory = fs.statSync(dirPath).isDirectory();
-    isDirectory ? walk(dirPath, callback) : callback(path.join(dir, f));
+    if (isDirectory) {
+      walk(dirPath, callback);
+    } else {
+      callback(dirPath);
+    }
   });
 }
 
-// Clean media links
+// Clean media links in a file
 function cleanMediaLinks(file) {
   if (!file.endsWith('.json') && !file.endsWith('.liquid')) return;
 
-  let content = fs.readFileSync(file, 'utf-8');
-  const original = content;
+  try {
+    let content = fs.readFileSync(file, 'utf-8');
+    const original = content;
 
-  // Replace hosted media URLs or `shopify:` references with empty string
-  content = content.replace(/"(https:\/\/cdn\.shopify\.com[^"]+|shopify:[^"]+|shopify:)"/g, '""');
+    // Replace hosted media URLs or `shopify:` references with empty string
+    content = content.replace(/"(https:\/\/cdn\.shopify\.com[^"]+|shopify:[^"]+|shopify:)"/g, '""');
 
-  if (content !== original) {
-    fs.writeFileSync(file, content, 'utf-8');
-    log(`Cleaned media in: ${file}`);
+    if (content !== original) {
+      fs.writeFileSync(file, content, 'utf-8');
+      updatedFiles.push(file);
+      log(`Cleaned media in: ${file}`);
+    }
+  } catch (err) {
+    log(`Error processing file ${file}: ${err.message}`);
   }
 }
 
@@ -65,8 +75,21 @@ function logGitChanges() {
   }
 }
 
-// Run everything
-log('--- Starting theme media cleanup ---');
-walk(THEME_DIR, cleanMediaLinks);
-logGitChanges();
-log('--- Cleanup complete ---\n');
+// Main execution
+(function main() {
+  try {
+    log('--- Starting theme media cleanup ---');
+    walk(THEME_DIR, cleanMediaLinks);
+
+    if (updatedFiles.length > 0) {
+      log(`\nSummary of updated files:\n${updatedFiles.map(f => `  - ${f}`).join('\n')}\n`);
+    } else {
+      log('No files were updated during cleanup.\n');
+    }
+
+    logGitChanges();
+    log('--- Cleanup complete ---\n');
+  } catch (err) {
+    log(`Fatal error: ${err.message}`);
+  }
+})();
