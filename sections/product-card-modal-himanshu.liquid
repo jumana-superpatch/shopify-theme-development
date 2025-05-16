@@ -27,7 +27,10 @@
     let productCard = sessionStorage.getItem(`product-card-${product}`);
     
     if (!productCard) {
-      productCard = await fetch(`/products/${product}?section_id=template--17810038390982__custom_product_onepager_fMb6DF`)
+       // productCard = await fetch(`/products/${product}?section_id=template--17810038390982__custom_product_onepager_fMb6DF`)
+      const sectionId = document.querySelector('[id^="template--"][id$="__custom_product_onepager"]')?.id;
+      console.log(sectionId)
+        productCard = await fetch(`/products/${product}?section_id=${sectionId}`)
         .then(res => res.text());
       sessionStorage.setItem(`product-card-${product}`, productCard);
     }
