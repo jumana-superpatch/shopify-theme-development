@@ -1,0 +1,30 @@
+name: Clean Media Links Before Shopify Sync
+
+on:
+  push:
+    branches: [main] # Adjust if your theme is on another branch
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+
+      - name: Run media cleaner script
+        run: |
+          node clean-theme-media.js # Adjust the path if the file is in a subfolder like scripts/
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "[skip ci] Auto-clean media links"
+          git push
