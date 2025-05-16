@@ -22,23 +22,17 @@ function walk(dir, callback) {
 function cleanMediaLinks(file) {
   if (!file.endsWith('.json') && !file.endsWith('.liquid')) return;
 
-  log(`Processing: ${file}`);
-
   let content = fs.readFileSync(file, 'utf-8');
   const original = content;
 
-  // Replace hosted media URLs or `shopify:` references with empty string
+  // Replace Shopify-hosted media URLs and shopify: links with empty string
   content = content.replace(/"(https:\/\/cdn\.shopify\.com[^"]+|shopify:[^"]+|shopify:)"/g, '""');
 
   if (content !== original) {
     fs.writeFileSync(file, content, 'utf-8');
     log(`Cleaned: ${file}`);
-  } else {
-    log(`- No changes needed: ${file}`);
   }
 }
 
-// Log session start
-log('=== Starting theme media cleanup ===');
+// Walk the theme directory and clean media links
 walk(THEME_DIR, cleanMediaLinks);
-log('=== Cleanup complete ===\n');

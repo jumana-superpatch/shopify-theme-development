@@ -37,3 +37,438 @@
 [2025-05-16T21:44:06.659Z] --- Cleanup complete ---
 >>>>>>> 8d923ead98ed04b37e9edb1bf606988d8dcec3a9
 
+[2025-05-16T21:46:36.045Z] === Starting theme media cleanup ===
+[2025-05-16T21:46:36.101Z] Processing: config\settings_data.json
+[2025-05-16T21:46:36.103Z] - No changes needed: config\settings_data.json
+[2025-05-16T21:46:36.104Z] Processing: config\settings_schema.json
+[2025-05-16T21:46:36.107Z] - No changes needed: config\settings_schema.json
+[2025-05-16T21:46:36.109Z] Processing: layout\password.liquid
+[2025-05-16T21:46:36.111Z] - No changes needed: layout\password.liquid
+[2025-05-16T21:46:36.112Z] Processing: layout\theme.liquid
+[2025-05-16T21:46:36.114Z] - No changes needed: layout\theme.liquid
+[2025-05-16T21:46:36.117Z] Processing: locales\de.json
+[2025-05-16T21:46:36.118Z] - No changes needed: locales\de.json
+[2025-05-16T21:46:36.119Z] Processing: locales\en.default.json
+[2025-05-16T21:46:36.120Z] - No changes needed: locales\en.default.json
+[2025-05-16T21:46:36.121Z] Processing: locales\es.json
+[2025-05-16T21:46:36.122Z] - No changes needed: locales\es.json
+[2025-05-16T21:46:36.123Z] Processing: locales\fr.json
+[2025-05-16T21:46:36.125Z] - No changes needed: locales\fr.json
+[2025-05-16T21:46:36.126Z] Processing: locales\it.json
+[2025-05-16T21:46:36.128Z] - No changes needed: locales\it.json
+[2025-05-16T21:46:36.129Z] Processing: locales\nl.json
+[2025-05-16T21:46:36.131Z] - No changes needed: locales\nl.json
+[2025-05-16T21:46:36.131Z] Processing: locales\tr.json
+[2025-05-16T21:46:36.133Z] - No changes needed: locales\tr.json
+[2025-05-16T21:46:36.133Z] Processing: sections\announcement-bar.liquid
+[2025-05-16T21:46:36.135Z] - No changes needed: sections\announcement-bar.liquid
+[2025-05-16T21:46:36.136Z] Processing: sections\apps.liquid
+[2025-05-16T21:46:36.137Z] - No changes needed: sections\apps.liquid
+[2025-05-16T21:46:36.138Z] Processing: sections\background-video.liquid
+[2025-05-16T21:46:36.139Z] - No changes needed: sections\background-video.liquid
+[2025-05-16T21:46:36.140Z] Processing: sections\before-after-image.liquid
+[2025-05-16T21:46:36.141Z] - No changes needed: sections\before-after-image.liquid
+[2025-05-16T21:46:36.142Z] Processing: sections\benefits-aira.liquid
+[2025-05-16T21:46:36.143Z] - No changes needed: sections\benefits-aira.liquid
+[2025-05-16T21:46:36.144Z] Processing: sections\breadcrumbs.liquid
+[2025-05-16T21:46:36.145Z] - No changes needed: sections\breadcrumbs.liquid
+[2025-05-16T21:46:36.146Z] Processing: sections\cart-bubble.liquid
+[2025-05-16T21:46:36.147Z] - No changes needed: sections\cart-bubble.liquid
+[2025-05-16T21:46:36.147Z] Processing: sections\cart-drawer.liquid
+[2025-05-16T21:46:36.148Z] - No changes needed: sections\cart-drawer.liquid
+[2025-05-16T21:46:36.149Z] Processing: sections\collapsible-content.liquid
+[2025-05-16T21:46:36.150Z] - No changes needed: sections\collapsible-content.liquid
+[2025-05-16T21:46:36.151Z] Processing: sections\collection-list.liquid
+[2025-05-16T21:46:36.152Z] - No changes needed: sections\collection-list.liquid
+[2025-05-16T21:46:36.152Z] Processing: sections\collection-tabs.liquid
+[2025-05-16T21:46:36.154Z] - No changes needed: sections\collection-tabs.liquid
+[2025-05-16T21:46:36.155Z] Processing: sections\contact-form.liquid
+[2025-05-16T21:46:36.156Z] - No changes needed: sections\contact-form.liquid
+[2025-05-16T21:46:36.157Z] Processing: sections\countdown-banner.liquid
+[2025-05-16T21:46:36.158Z] - No changes needed: sections\countdown-banner.liquid
+[2025-05-16T21:46:36.159Z] Processing: sections\custom-liquid.liquid
+[2025-05-16T21:46:36.159Z] - No changes needed: sections\custom-liquid.liquid
+[2025-05-16T21:46:36.160Z] Processing: sections\custom-product-onepager.liquid
+[2025-05-16T21:46:36.160Z] - No changes needed: sections\custom-product-onepager.liquid
+[2025-05-16T21:46:36.160Z] Processing: sections\custom-text-with-image-aira.liquid
+[2025-05-16T21:46:36.161Z] - No changes needed: sections\custom-text-with-image-aira.liquid
+[2025-05-16T21:46:36.162Z] Processing: sections\customer-reviews.liquid
+[2025-05-16T21:46:36.162Z] - No changes needed: sections\customer-reviews.liquid
+[2025-05-16T21:46:36.163Z] Processing: sections\email-signup.liquid
+[2025-05-16T21:46:36.163Z] - No changes needed: sections\email-signup.liquid
+[2025-05-16T21:46:36.163Z] Processing: sections\featured-blog-post.liquid
+[2025-05-16T21:46:36.164Z] - No changes needed: sections\featured-blog-post.liquid
+[2025-05-16T21:46:36.165Z] Processing: sections\featured-blog.liquid
+[2025-05-16T21:46:36.165Z] - No changes needed: sections\featured-blog.liquid
+[2025-05-16T21:46:36.165Z] Processing: sections\featured-collection-list.liquid
+[2025-05-16T21:46:36.166Z] - No changes needed: sections\featured-collection-list.liquid
+[2025-05-16T21:46:36.166Z] Processing: sections\featured-collection.liquid
+[2025-05-16T21:46:36.166Z] - No changes needed: sections\featured-collection.liquid
+[2025-05-16T21:46:36.166Z] Processing: sections\featured-product-card.liquid
+[2025-05-16T21:46:36.167Z] - No changes needed: sections\featured-product-card.liquid
+[2025-05-16T21:46:36.167Z] Processing: sections\featured-product.liquid
+[2025-05-16T21:46:36.167Z] - No changes needed: sections\featured-product.liquid
+[2025-05-16T21:46:36.168Z] Processing: sections\footer-group.context.b2b.json
+[2025-05-16T21:46:36.168Z] - No changes needed: sections\footer-group.context.b2b.json
+[2025-05-16T21:46:36.168Z] Processing: sections\footer-group.json
+[2025-05-16T21:46:36.168Z] - No changes needed: sections\footer-group.json
+[2025-05-16T21:46:36.169Z] Processing: sections\footer.liquid
+[2025-05-16T21:46:36.169Z] - No changes needed: sections\footer.liquid
+[2025-05-16T21:46:36.170Z] Processing: sections\gallery.liquid
+[2025-05-16T21:46:36.170Z] - No changes needed: sections\gallery.liquid
+[2025-05-16T21:46:36.171Z] Processing: sections\header-group.context.b2b.json
+[2025-05-16T21:46:36.172Z] - No changes needed: sections\header-group.context.b2b.json
+[2025-05-16T21:46:36.173Z] Processing: sections\header-group.json
+[2025-05-16T21:46:36.173Z] - No changes needed: sections\header-group.json
+[2025-05-16T21:46:36.174Z] Processing: sections\header.liquid
+[2025-05-16T21:46:36.175Z] - No changes needed: sections\header.liquid
+[2025-05-16T21:46:36.175Z] Processing: sections\image-hotspots.liquid
+[2025-05-16T21:46:36.176Z] - No changes needed: sections\image-hotspots.liquid
+[2025-05-16T21:46:36.176Z] Processing: sections\image-with-text-overlay.liquid
+[2025-05-16T21:46:36.176Z] - No changes needed: sections\image-with-text-overlay.liquid
+[2025-05-16T21:46:36.176Z] Processing: sections\image-with-text-slideshow.liquid
+[2025-05-16T21:46:36.177Z] - No changes needed: sections\image-with-text-slideshow.liquid
+[2025-05-16T21:46:36.177Z] Processing: sections\image-with-text.liquid
+[2025-05-16T21:46:36.177Z] - No changes needed: sections\image-with-text.liquid
+[2025-05-16T21:46:36.178Z] Processing: sections\layered-images-with-text.liquid
+[2025-05-16T21:46:36.178Z] - No changes needed: sections\layered-images-with-text.liquid
+[2025-05-16T21:46:36.178Z] Processing: sections\logo-list.liquid
+[2025-05-16T21:46:36.178Z] - No changes needed: sections\logo-list.liquid
+[2025-05-16T21:46:36.179Z] Processing: sections\main-404.liquid
+[2025-05-16T21:46:36.179Z] - No changes needed: sections\main-404.liquid
+[2025-05-16T21:46:36.179Z] Processing: sections\main-account.liquid
+[2025-05-16T21:46:36.180Z] - No changes needed: sections\main-account.liquid
+[2025-05-16T21:46:36.180Z] Processing: sections\main-activate-account.liquid
+[2025-05-16T21:46:36.180Z] - No changes needed: sections\main-activate-account.liquid
+[2025-05-16T21:46:36.181Z] Processing: sections\main-addresses.liquid
+[2025-05-16T21:46:36.181Z] - No changes needed: sections\main-addresses.liquid
+[2025-05-16T21:46:36.181Z] Processing: sections\main-article.liquid
+[2025-05-16T21:46:36.182Z] - No changes needed: sections\main-article.liquid
+[2025-05-16T21:46:36.182Z] Processing: sections\main-blog-header.liquid
+[2025-05-16T21:46:36.183Z] - No changes needed: sections\main-blog-header.liquid
+[2025-05-16T21:46:36.183Z] Processing: sections\main-blog.liquid
+[2025-05-16T21:46:36.183Z] - No changes needed: sections\main-blog.liquid
+[2025-05-16T21:46:36.183Z] Processing: sections\main-cart.liquid
+[2025-05-16T21:46:36.184Z] - No changes needed: sections\main-cart.liquid
+[2025-05-16T21:46:36.184Z] Processing: sections\main-collection-banner.liquid
+[2025-05-16T21:46:36.184Z] - No changes needed: sections\main-collection-banner.liquid
+[2025-05-16T21:46:36.184Z] Processing: sections\main-collection-product-grid.liquid
+[2025-05-16T21:46:36.185Z] - No changes needed: sections\main-collection-product-grid.liquid
+[2025-05-16T21:46:36.185Z] Processing: sections\main-list-collections.liquid
+[2025-05-16T21:46:36.185Z] - No changes needed: sections\main-list-collections.liquid
+[2025-05-16T21:46:36.186Z] Processing: sections\main-login.liquid
+[2025-05-16T21:46:36.186Z] - No changes needed: sections\main-login.liquid
+[2025-05-16T21:46:36.186Z] Processing: sections\main-order.liquid
+[2025-05-16T21:46:36.187Z] - No changes needed: sections\main-order.liquid
+[2025-05-16T21:46:36.187Z] Processing: sections\main-page.liquid
+[2025-05-16T21:46:36.187Z] - No changes needed: sections\main-page.liquid
+[2025-05-16T21:46:36.188Z] Processing: sections\main-password.liquid
+[2025-05-16T21:46:36.188Z] - No changes needed: sections\main-password.liquid
+[2025-05-16T21:46:36.189Z] Processing: sections\main-product-quick-view.liquid
+[2025-05-16T21:46:36.189Z] - No changes needed: sections\main-product-quick-view.liquid
+[2025-05-16T21:46:36.190Z] Processing: sections\main-product.liquid
+[2025-05-16T21:46:36.190Z] - No changes needed: sections\main-product.liquid
+[2025-05-16T21:46:36.190Z] Processing: sections\main-register.liquid
+[2025-05-16T21:46:36.191Z] - No changes needed: sections\main-register.liquid
+[2025-05-16T21:46:36.191Z] Processing: sections\main-reset-password.liquid
+[2025-05-16T21:46:36.191Z] - No changes needed: sections\main-reset-password.liquid
+[2025-05-16T21:46:36.192Z] Processing: sections\main-search.liquid
+[2025-05-16T21:46:36.192Z] - No changes needed: sections\main-search.liquid
+[2025-05-16T21:46:36.192Z] Processing: sections\map.liquid
+[2025-05-16T21:46:36.193Z] - No changes needed: sections\map.liquid
+[2025-05-16T21:46:36.193Z] Processing: sections\media-grid.liquid
+[2025-05-16T21:46:36.193Z] - No changes needed: sections\media-grid.liquid
+[2025-05-16T21:46:36.194Z] Processing: sections\multicolumn-products.liquid
+[2025-05-16T21:46:36.194Z] - No changes needed: sections\multicolumn-products.liquid
+[2025-05-16T21:46:36.194Z] Processing: sections\multicolumn.liquid
+[2025-05-16T21:46:36.195Z] - No changes needed: sections\multicolumn.liquid
+[2025-05-16T21:46:36.195Z] Processing: sections\overlay-age-verification.liquid
+[2025-05-16T21:46:36.195Z] - No changes needed: sections\overlay-age-verification.liquid
+[2025-05-16T21:46:36.196Z] Processing: sections\overlay-group.context.b2b.json
+[2025-05-16T21:46:36.196Z] - No changes needed: sections\overlay-group.context.b2b.json
+[2025-05-16T21:46:36.196Z] Processing: sections\overlay-group.json
+[2025-05-16T21:46:36.196Z] - No changes needed: sections\overlay-group.json
+[2025-05-16T21:46:36.197Z] Processing: sections\overlay-popup.liquid
+[2025-05-16T21:46:36.197Z] - No changes needed: sections\overlay-popup.liquid
+[2025-05-16T21:46:36.197Z] Processing: sections\page.liquid
+[2025-05-16T21:46:36.198Z] - No changes needed: sections\page.liquid
+[2025-05-16T21:46:36.198Z] Processing: sections\pickup-availability.liquid
+[2025-05-16T21:46:36.198Z] - No changes needed: sections\pickup-availability.liquid
+[2025-05-16T21:46:36.198Z] Processing: sections\predictive-search.liquid
+[2025-05-16T21:46:36.199Z] - No changes needed: sections\predictive-search.liquid
+[2025-05-16T21:46:36.199Z] Processing: sections\product-card-modal-himanshu.liquid
+[2025-05-16T21:46:36.199Z] - No changes needed: sections\product-card-modal-himanshu.liquid
+[2025-05-16T21:46:36.200Z] Processing: sections\product-grid-affiliates.liquid
+[2025-05-16T21:46:36.200Z] - No changes needed: sections\product-grid-affiliates.liquid
+[2025-05-16T21:46:36.200Z] Processing: sections\product-recommendations.liquid
+[2025-05-16T21:46:36.201Z] - No changes needed: sections\product-recommendations.liquid
+[2025-05-16T21:46:36.201Z] Processing: sections\product-slider.liquid
+[2025-05-16T21:46:36.201Z] - No changes needed: sections\product-slider.liquid
+[2025-05-16T21:46:36.201Z] Processing: sections\progress-bars.liquid
+[2025-05-16T21:46:36.202Z] - No changes needed: sections\progress-bars.liquid
+[2025-05-16T21:46:36.202Z] Processing: sections\promotional-banner.liquid
+[2025-05-16T21:46:36.202Z] - No changes needed: sections\promotional-banner.liquid
+[2025-05-16T21:46:36.203Z] Processing: sections\recently-viewed-products.liquid
+[2025-05-16T21:46:36.203Z] - No changes needed: sections\recently-viewed-products.liquid
+[2025-05-16T21:46:36.203Z] Processing: sections\rich-text.liquid
+[2025-05-16T21:46:36.204Z] - No changes needed: sections\rich-text.liquid
+[2025-05-16T21:46:36.204Z] Processing: sections\scrolling-images.liquid
+[2025-05-16T21:46:36.204Z] - No changes needed: sections\scrolling-images.liquid
+[2025-05-16T21:46:36.205Z] Processing: sections\scrolling-text.liquid
+[2025-05-16T21:46:36.205Z] - No changes needed: sections\scrolling-text.liquid
+[2025-05-16T21:46:36.205Z] Processing: sections\shop-the-look.liquid
+[2025-05-16T21:46:36.206Z] - No changes needed: sections\shop-the-look.liquid
+[2025-05-16T21:46:36.206Z] Processing: sections\shoppable-view-reels.liquid
+[2025-05-16T21:46:36.207Z] - No changes needed: sections\shoppable-view-reels.liquid
+[2025-05-16T21:46:36.207Z] Processing: sections\single-image.liquid
+[2025-05-16T21:46:36.207Z] - No changes needed: sections\single-image.liquid
+[2025-05-16T21:46:36.208Z] Processing: sections\slideshow.liquid
+[2025-05-16T21:46:36.208Z] - No changes needed: sections\slideshow.liquid
+[2025-05-16T21:46:36.208Z] Processing: sections\spacer.liquid
+[2025-05-16T21:46:36.208Z] - No changes needed: sections\spacer.liquid
+[2025-05-16T21:46:36.209Z] Processing: sections\tabbed-content.liquid
+[2025-05-16T21:46:36.209Z] - No changes needed: sections\tabbed-content.liquid
+[2025-05-16T21:46:36.209Z] Processing: sections\testimonials.liquid
+[2025-05-16T21:46:36.210Z] - No changes needed: sections\testimonials.liquid
+[2025-05-16T21:46:36.210Z] Processing: sections\text-with-icons.liquid
+[2025-05-16T21:46:36.210Z] - No changes needed: sections\text-with-icons.liquid
+[2025-05-16T21:46:36.211Z] Processing: sections\timeline.liquid
+[2025-05-16T21:46:36.211Z] - No changes needed: sections\timeline.liquid
+[2025-05-16T21:46:36.211Z] Processing: sections\vendor-list.liquid
+[2025-05-16T21:46:36.212Z] - No changes needed: sections\vendor-list.liquid
+[2025-05-16T21:46:36.212Z] Processing: sections\vertical-slideshow.liquid
+[2025-05-16T21:46:36.212Z] - No changes needed: sections\vertical-slideshow.liquid
+[2025-05-16T21:46:36.213Z] Processing: sections\video.liquid
+[2025-05-16T21:46:36.213Z] - No changes needed: sections\video.liquid
+[2025-05-16T21:46:36.213Z] Processing: snippets\back-to-top.liquid
+[2025-05-16T21:46:36.214Z] - No changes needed: snippets\back-to-top.liquid
+[2025-05-16T21:46:36.214Z] Processing: snippets\benefits-comparison-aira.liquid
+[2025-05-16T21:46:36.214Z] - No changes needed: snippets\benefits-comparison-aira.liquid
+[2025-05-16T21:46:36.214Z] Processing: snippets\blog-post-large.liquid
+[2025-05-16T21:46:36.215Z] - No changes needed: snippets\blog-post-large.liquid
+[2025-05-16T21:46:36.215Z] Processing: snippets\blog-post.liquid
+[2025-05-16T21:46:36.215Z] - No changes needed: snippets\blog-post.liquid
+[2025-05-16T21:46:36.216Z] Processing: snippets\breadcrumbs.liquid
+[2025-05-16T21:46:36.216Z] - No changes needed: snippets\breadcrumbs.liquid
+[2025-05-16T21:46:36.216Z] Processing: snippets\cart-drawer.liquid
+[2025-05-16T21:46:36.217Z] - No changes needed: snippets\cart-drawer.liquid
+[2025-05-16T21:46:36.217Z] Processing: snippets\cart-terms.liquid
+[2025-05-16T21:46:36.217Z] - No changes needed: snippets\cart-terms.liquid
+[2025-05-16T21:46:36.217Z] Processing: snippets\collection-card.liquid
+[2025-05-16T21:46:36.218Z] - No changes needed: snippets\collection-card.liquid
+[2025-05-16T21:46:36.218Z] Processing: snippets\customer-data.liquid
+[2025-05-16T21:46:36.218Z] - No changes needed: snippets\customer-data.liquid
+[2025-05-16T21:46:36.218Z] Processing: snippets\email-signup-form.liquid
+[2025-05-16T21:46:36.219Z] - No changes needed: snippets\email-signup-form.liquid
+[2025-05-16T21:46:36.219Z] Processing: snippets\facets-active.liquid
+[2025-05-16T21:46:36.219Z] - No changes needed: snippets\facets-active.liquid
+[2025-05-16T21:46:36.220Z] Processing: snippets\facets-bar.liquid
+[2025-05-16T21:46:36.220Z] - No changes needed: snippets\facets-bar.liquid
+[2025-05-16T21:46:36.220Z] Processing: snippets\facets-desktop.liquid
+[2025-05-16T21:46:36.221Z] - No changes needed: snippets\facets-desktop.liquid
+[2025-05-16T21:46:36.221Z] Processing: snippets\facets-mobile.liquid
+[2025-05-16T21:46:36.221Z] - No changes needed: snippets\facets-mobile.liquid
+[2025-05-16T21:46:36.222Z] Processing: snippets\facets.liquid
+[2025-05-16T21:46:36.222Z] - No changes needed: snippets\facets.liquid
+[2025-05-16T21:46:36.222Z] Processing: snippets\free-shipping.liquid
+[2025-05-16T21:46:36.222Z] - No changes needed: snippets\free-shipping.liquid
+[2025-05-16T21:46:36.223Z] Processing: snippets\gift-card-recipient-form.liquid
+[2025-05-16T21:46:36.223Z] - No changes needed: snippets\gift-card-recipient-form.liquid
+[2025-05-16T21:46:36.223Z] Processing: snippets\head-preload.liquid
+[2025-05-16T21:46:36.224Z] - No changes needed: snippets\head-preload.liquid
+[2025-05-16T21:46:36.224Z] Processing: snippets\head-variables.liquid
+[2025-05-16T21:46:36.224Z] - No changes needed: snippets\head-variables.liquid
+[2025-05-16T21:46:36.224Z] Processing: snippets\header-full-menu-promotion-vertical.liquid
+[2025-05-16T21:46:36.225Z] - No changes needed: snippets\header-full-menu-promotion-vertical.liquid
+[2025-05-16T21:46:36.225Z] Processing: snippets\header-full-menu-promotion.liquid
+[2025-05-16T21:46:36.225Z] - No changes needed: snippets\header-full-menu-promotion.liquid
+[2025-05-16T21:46:36.225Z] Processing: snippets\header-full-menu.liquid
+[2025-05-16T21:46:36.226Z] - No changes needed: snippets\header-full-menu.liquid
+[2025-05-16T21:46:36.226Z] Processing: snippets\header-mega-menu-promotions.liquid
+[2025-05-16T21:46:36.226Z] - No changes needed: snippets\header-mega-menu-promotions.liquid
+[2025-05-16T21:46:36.227Z] Processing: snippets\header-mega-menu-sidebar.liquid
+[2025-05-16T21:46:36.227Z] - No changes needed: snippets\header-mega-menu-sidebar.liquid
+[2025-05-16T21:46:36.227Z] Processing: snippets\header-mega-menu.liquid
+[2025-05-16T21:46:36.227Z] - No changes needed: snippets\header-mega-menu.liquid
+[2025-05-16T21:46:36.228Z] Processing: snippets\header-mobile-menu.liquid
+[2025-05-16T21:46:36.228Z] - No changes needed: snippets\header-mobile-menu.liquid
+[2025-05-16T21:46:36.228Z] Processing: snippets\header-mobile-toggle.liquid
+[2025-05-16T21:46:36.229Z] - No changes needed: snippets\header-mobile-toggle.liquid
+[2025-05-16T21:46:36.229Z] Processing: snippets\header-secondary-area.liquid
+[2025-05-16T21:46:36.229Z] - No changes needed: snippets\header-secondary-area.liquid
+[2025-05-16T21:46:36.229Z] Processing: snippets\header-style1.liquid
+[2025-05-16T21:46:36.230Z] - No changes needed: snippets\header-style1.liquid
+[2025-05-16T21:46:36.230Z] Processing: snippets\header-style2.liquid
+[2025-05-16T21:46:36.230Z] - No changes needed: snippets\header-style2.liquid
+[2025-05-16T21:46:36.230Z] Processing: snippets\header-style3.liquid
+[2025-05-16T21:46:36.231Z] - No changes needed: snippets\header-style3.liquid
+[2025-05-16T21:46:36.231Z] Processing: snippets\header-style4.liquid
+[2025-05-16T21:46:36.231Z] - No changes needed: snippets\header-style4.liquid
+[2025-05-16T21:46:36.232Z] Processing: snippets\localization.liquid
+[2025-05-16T21:46:36.232Z] - No changes needed: snippets\localization.liquid
+[2025-05-16T21:46:36.232Z] Processing: snippets\newline_to_span.liquid
+[2025-05-16T21:46:36.232Z] - No changes needed: snippets\newline_to_span.liquid
+[2025-05-16T21:46:36.233Z] Processing: snippets\pagination.liquid
+[2025-05-16T21:46:36.233Z] - No changes needed: snippets\pagination.liquid
+[2025-05-16T21:46:36.233Z] Processing: snippets\partners-collections-styles.liquid
+[2025-05-16T21:46:36.234Z] - No changes needed: snippets\partners-collections-styles.liquid
+[2025-05-16T21:46:36.234Z] Processing: snippets\photoswipe.liquid
+[2025-05-16T21:46:36.234Z] - No changes needed: snippets\photoswipe.liquid
+[2025-05-16T21:46:36.234Z] Processing: snippets\product-add-to-cart-sticky.liquid
+[2025-05-16T21:46:36.235Z] - No changes needed: snippets\product-add-to-cart-sticky.liquid
+[2025-05-16T21:46:36.235Z] Processing: snippets\product-add-to-cart.liquid
+[2025-05-16T21:46:36.235Z] - No changes needed: snippets\product-add-to-cart.liquid
+[2025-05-16T21:46:36.235Z] Processing: snippets\product-card-badge.liquid
+[2025-05-16T21:46:36.236Z] - No changes needed: snippets\product-card-badge.liquid
+[2025-05-16T21:46:36.236Z] Processing: snippets\product-card-simple.liquid
+[2025-05-16T21:46:36.236Z] - No changes needed: snippets\product-card-simple.liquid
+[2025-05-16T21:46:36.236Z] Processing: snippets\product-card-size-options.liquid
+[2025-05-16T21:46:36.237Z] - No changes needed: snippets\product-card-size-options.liquid
+[2025-05-16T21:46:36.237Z] Processing: snippets\product-card-small.liquid
+[2025-05-16T21:46:36.238Z] - No changes needed: snippets\product-card-small.liquid
+[2025-05-16T21:46:36.238Z] Processing: snippets\product-card-swatch.liquid
+[2025-05-16T21:46:36.238Z] - No changes needed: snippets\product-card-swatch.liquid
+[2025-05-16T21:46:36.238Z] Processing: snippets\product-card.liquid
+[2025-05-16T21:46:36.239Z] - No changes needed: snippets\product-card.liquid
+[2025-05-16T21:46:36.239Z] Processing: snippets\product-drawer.liquid
+[2025-05-16T21:46:36.239Z] - No changes needed: snippets\product-drawer.liquid
+[2025-05-16T21:46:36.240Z] Processing: snippets\product-information.liquid
+[2025-05-16T21:46:36.240Z] - No changes needed: snippets\product-information.liquid
+[2025-05-16T21:46:36.240Z] Processing: snippets\product-inventory-notice.liquid
+[2025-05-16T21:46:36.241Z] - No changes needed: snippets\product-inventory-notice.liquid
+[2025-05-16T21:46:36.241Z] Processing: snippets\product-media.liquid
+[2025-05-16T21:46:36.241Z] - No changes needed: snippets\product-media.liquid
+[2025-05-16T21:46:36.241Z] Processing: snippets\product-option.liquid
+[2025-05-16T21:46:36.242Z] - No changes needed: snippets\product-option.liquid
+[2025-05-16T21:46:36.242Z] Processing: snippets\product-pickup-availability.liquid
+[2025-05-16T21:46:36.242Z] - No changes needed: snippets\product-pickup-availability.liquid
+[2025-05-16T21:46:36.242Z] Processing: snippets\product-price.liquid
+[2025-05-16T21:46:36.243Z] - No changes needed: snippets\product-price.liquid
+[2025-05-16T21:46:36.243Z] Processing: snippets\product-promotion.liquid
+[2025-05-16T21:46:36.243Z] - No changes needed: snippets\product-promotion.liquid
+[2025-05-16T21:46:36.244Z] Processing: snippets\product-siblings.liquid
+[2025-05-16T21:46:36.244Z] - No changes needed: snippets\product-siblings.liquid
+[2025-05-16T21:46:36.244Z] Processing: snippets\product-specification-metafield.liquid
+[2025-05-16T21:46:36.245Z] - No changes needed: snippets\product-specification-metafield.liquid
+[2025-05-16T21:46:36.245Z] Processing: snippets\product-specification-table.liquid
+[2025-05-16T21:46:36.245Z] - No changes needed: snippets\product-specification-table.liquid
+[2025-05-16T21:46:36.246Z] Processing: snippets\product-thumbnail.liquid
+[2025-05-16T21:46:36.246Z] - No changes needed: snippets\product-thumbnail.liquid
+[2025-05-16T21:46:36.246Z] Processing: snippets\responsive-image.liquid
+[2025-05-16T21:46:36.246Z] - No changes needed: snippets\responsive-image.liquid
+[2025-05-16T21:46:36.247Z] Processing: snippets\responsive-preload.liquid
+[2025-05-16T21:46:36.247Z] - No changes needed: snippets\responsive-preload.liquid
+[2025-05-16T21:46:36.247Z] Processing: snippets\search-drawer.liquid
+[2025-05-16T21:46:36.248Z] - No changes needed: snippets\search-drawer.liquid
+[2025-05-16T21:46:36.248Z] Processing: snippets\section-header.liquid
+[2025-05-16T21:46:36.248Z] - No changes needed: snippets\section-header.liquid
+[2025-05-16T21:46:36.248Z] Processing: snippets\shipping-estimator.liquid
+[2025-05-16T21:46:36.249Z] - No changes needed: snippets\shipping-estimator.liquid
+[2025-05-16T21:46:36.249Z] Processing: snippets\slideshow-arrows.liquid
+[2025-05-16T21:46:36.249Z] - No changes needed: snippets\slideshow-arrows.liquid
+[2025-05-16T21:46:36.250Z] Processing: snippets\social-links.liquid
+[2025-05-16T21:46:36.250Z] - No changes needed: snippets\social-links.liquid
+[2025-05-16T21:46:36.250Z] Processing: snippets\social-meta-tags.liquid
+[2025-05-16T21:46:36.251Z] - No changes needed: snippets\social-meta-tags.liquid
+[2025-05-16T21:46:36.251Z] Processing: snippets\social-share.liquid
+[2025-05-16T21:46:36.251Z] - No changes needed: snippets\social-share.liquid
+[2025-05-16T21:46:36.252Z] Processing: snippets\svg-icons-inline.liquid
+[2025-05-16T21:46:36.252Z] - No changes needed: snippets\svg-icons-inline.liquid
+[2025-05-16T21:46:36.253Z] Processing: snippets\svg-icons.liquid
+[2025-05-16T21:46:36.253Z] - No changes needed: snippets\svg-icons.liquid
+[2025-05-16T21:46:36.254Z] Processing: snippets\text-max-height.liquid
+[2025-05-16T21:46:36.254Z] - No changes needed: snippets\text-max-height.liquid
+[2025-05-16T21:46:36.255Z] Processing: templates\404.json
+[2025-05-16T21:46:36.255Z] - No changes needed: templates\404.json
+[2025-05-16T21:46:36.255Z] Processing: templates\article.json
+[2025-05-16T21:46:36.256Z] - No changes needed: templates\article.json
+[2025-05-16T21:46:36.256Z] Processing: templates\blog.json
+[2025-05-16T21:46:36.256Z] - No changes needed: templates\blog.json
+[2025-05-16T21:46:36.256Z] Processing: templates\cart.json
+[2025-05-16T21:46:36.257Z] - No changes needed: templates\cart.json
+[2025-05-16T21:46:36.257Z] Processing: templates\collection.affiliate_products.context.b2b.json
+[2025-05-16T21:46:36.257Z] - No changes needed: templates\collection.affiliate_products.context.b2b.json
+[2025-05-16T21:46:36.258Z] Processing: templates\collection.affiliate_products.json
+[2025-05-16T21:46:36.258Z] - No changes needed: templates\collection.affiliate_products.json
+[2025-05-16T21:46:36.258Z] Processing: templates\collection.collection-alternative.json
+[2025-05-16T21:46:36.259Z] - No changes needed: templates\collection.collection-alternative.json
+[2025-05-16T21:46:36.259Z] Processing: templates\collection.collection-with-sidebar.json
+[2025-05-16T21:46:36.259Z] - No changes needed: templates\collection.collection-with-sidebar.json
+[2025-05-16T21:46:36.259Z] Processing: templates\collection.json
+[2025-05-16T21:46:36.260Z] - No changes needed: templates\collection.json
+[2025-05-16T21:46:36.260Z] Processing: templates\collection.partners.json
+[2025-05-16T21:46:36.260Z] - No changes needed: templates\collection.partners.json
+[2025-05-16T21:46:36.261Z] Processing: templates\collection.reinvent.json
+[2025-05-16T21:46:36.261Z] - No changes needed: templates\collection.reinvent.json
+[2025-05-16T21:46:36.262Z] Processing: templates\customers\account.json
+[2025-05-16T21:46:36.262Z] - No changes needed: templates\customers\account.json
+[2025-05-16T21:46:36.262Z] Processing: templates\customers\activate_account.json
+[2025-05-16T21:46:36.262Z] - No changes needed: templates\customers\activate_account.json
+[2025-05-16T21:46:36.263Z] Processing: templates\customers\addresses.json
+[2025-05-16T21:46:36.263Z] - No changes needed: templates\customers\addresses.json
+[2025-05-16T21:46:36.263Z] Processing: templates\customers\login.json
+[2025-05-16T21:46:36.264Z] - No changes needed: templates\customers\login.json
+[2025-05-16T21:46:36.264Z] Processing: templates\customers\order.json
+[2025-05-16T21:46:36.264Z] - No changes needed: templates\customers\order.json
+[2025-05-16T21:46:36.264Z] Processing: templates\customers\register.json
+[2025-05-16T21:46:36.265Z] - No changes needed: templates\customers\register.json
+[2025-05-16T21:46:36.265Z] Processing: templates\customers\reset_password.json
+[2025-05-16T21:46:36.265Z] - No changes needed: templates\customers\reset_password.json
+[2025-05-16T21:46:36.265Z] Processing: templates\gift_card.liquid
+[2025-05-16T21:46:36.266Z] - No changes needed: templates\gift_card.liquid
+[2025-05-16T21:46:36.266Z] Processing: templates\index.glamour.json
+[2025-05-16T21:46:36.266Z] - No changes needed: templates\index.glamour.json
+[2025-05-16T21:46:36.266Z] Processing: templates\index.json
+[2025-05-16T21:46:36.267Z] - No changes needed: templates\index.json
+[2025-05-16T21:46:36.267Z] Processing: templates\index.mono.json
+[2025-05-16T21:46:36.268Z] - No changes needed: templates\index.mono.json
+[2025-05-16T21:46:36.268Z] Processing: templates\index.reinvent.json
+[2025-05-16T21:46:36.268Z] - No changes needed: templates\index.reinvent.json
+[2025-05-16T21:46:36.269Z] Processing: templates\index.sunshine.json
+[2025-05-16T21:46:36.269Z] - No changes needed: templates\index.sunshine.json
+[2025-05-16T21:46:36.269Z] Processing: templates\list-collections.json
+[2025-05-16T21:46:36.270Z] - No changes needed: templates\list-collections.json
+[2025-05-16T21:46:36.270Z] Processing: templates\page.about.glamour.json
+[2025-05-16T21:46:36.270Z] - No changes needed: templates\page.about.glamour.json
+[2025-05-16T21:46:36.271Z] Processing: templates\page.about.json
+[2025-05-16T21:46:36.271Z] - No changes needed: templates\page.about.json
+[2025-05-16T21:46:36.271Z] Processing: templates\page.about.mono.json
+[2025-05-16T21:46:36.272Z] - No changes needed: templates\page.about.mono.json
+[2025-05-16T21:46:36.272Z] Processing: templates\page.about.reinvent.json
+[2025-05-16T21:46:36.272Z] - No changes needed: templates\page.about.reinvent.json
+[2025-05-16T21:46:36.273Z] Processing: templates\page.about.sunshine.json
+[2025-05-16T21:46:36.273Z] - No changes needed: templates\page.about.sunshine.json
+[2025-05-16T21:46:36.273Z] Processing: templates\page.cashmere.json
+[2025-05-16T21:46:36.274Z] - No changes needed: templates\page.cashmere.json
+[2025-05-16T21:46:36.274Z] Processing: templates\page.contact.json
+[2025-05-16T21:46:36.274Z] - No changes needed: templates\page.contact.json
+[2025-05-16T21:46:36.275Z] Processing: templates\page.faq.json
+[2025-05-16T21:46:36.275Z] - No changes needed: templates\page.faq.json
+[2025-05-16T21:46:36.275Z] Processing: templates\page.json
+[2025-05-16T21:46:36.275Z] - No changes needed: templates\page.json
+[2025-05-16T21:46:36.276Z] Processing: templates\page.our-fabrics.json
+[2025-05-16T21:46:36.276Z] - No changes needed: templates\page.our-fabrics.json
+[2025-05-16T21:46:36.276Z] Processing: templates\page.sustainability.mono.json
+[2025-05-16T21:46:36.277Z] - No changes needed: templates\page.sustainability.mono.json
+[2025-05-16T21:46:36.277Z] Processing: templates\password.json
+[2025-05-16T21:46:36.277Z] - No changes needed: templates\password.json
+[2025-05-16T21:46:36.278Z] Processing: templates\product.glamour.json
+[2025-05-16T21:46:36.278Z] - No changes needed: templates\product.glamour.json
+[2025-05-16T21:46:36.278Z] Processing: templates\product.json
+[2025-05-16T21:46:36.279Z] - No changes needed: templates\product.json
+[2025-05-16T21:46:36.279Z] Processing: templates\product.mono.json
+[2025-05-16T21:46:36.279Z] - No changes needed: templates\product.mono.json
+[2025-05-16T21:46:36.279Z] Processing: templates\product.pre-order.json
+[2025-05-16T21:46:36.280Z] - No changes needed: templates\product.pre-order.json
+[2025-05-16T21:46:36.280Z] Processing: templates\product.quick-view.json
+[2025-05-16T21:46:36.280Z] - No changes needed: templates\product.quick-view.json
+[2025-05-16T21:46:36.281Z] Processing: templates\product.reinvent.json
+[2025-05-16T21:46:36.281Z] - No changes needed: templates\product.reinvent.json
+[2025-05-16T21:46:36.281Z] Processing: templates\product.sunshine.json
+[2025-05-16T21:46:36.282Z] - No changes needed: templates\product.sunshine.json
+[2025-05-16T21:46:36.282Z] Processing: templates\search.json
+[2025-05-16T21:46:36.282Z] - No changes needed: templates\search.json
+[2025-05-16T21:46:36.282Z] Processing: templates\search.recently-viewed.liquid
+[2025-05-16T21:46:36.283Z] - No changes needed: templates\search.recently-viewed.liquid
+[2025-05-16T21:46:36.283Z] === Cleanup complete ===
+
