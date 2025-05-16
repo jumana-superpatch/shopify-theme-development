@@ -1,7 +1,15 @@
 const fs = require('fs');
 const path = require('path');
 
-const THEME_DIR = './'; // or your theme root
+const THEME_DIR = './'; // root of the theme directory
+const LOG_FILE = path.join(__dirname, 'deploy-log.txt');
+
+function log(message) {
+  const timestamp = new Date().toISOString();
+  const fullMessage = `[${timestamp}] ${message}\n`;
+  fs.appendFileSync(LOG_FILE, fullMessage);
+  console.log(message);
+}
 
 function walk(dir, callback) {
   fs.readdirSync(dir).forEach((f) => {
@@ -17,13 +25,16 @@ function cleanMediaLinks(file) {
   let content = fs.readFileSync(file, 'utf-8');
   const original = content;
 
-  // Replace shopify hosted links or empty "shopify:" with ""
+  // Replace hosted media URLs or `shopify:` references with empty string
   content = content.replace(/"(https:\/\/cdn\.shopify\.com[^"]+|shopify:[^"]+|shopify:)"/g, '""');
 
   if (content !== original) {
     fs.writeFileSync(file, content, 'utf-8');
-    console.log(`Cleaned: ${file}`);
+    log(`Cleaned: ${file}`);
   }
 }
 
+// Log session start
+log('--- Starting theme media cleanup ---');
 walk(THEME_DIR, cleanMediaLinks);
+log('--- Cleanup complete ---\n');
