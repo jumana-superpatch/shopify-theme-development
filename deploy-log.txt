@@ -9,7 +9,13 @@
 [2025-05-16T21:26:03.936Z] --- Starting theme media cleanup ---
 [2025-05-16T21:26:03.955Z] --- Cleanup complete ---
 
+<<<<<<< HEAD
 [2025-05-16T21:31:30.069Z] --- Starting theme media cleanup ---
 [2025-05-16T21:31:30.161Z] Cleaned: templates\index.json
 [2025-05-16T21:31:30.166Z] --- Cleanup complete ---
+=======
+[2025-05-16T21:31:39.882Z] --- Starting theme media cleanup ---
+[2025-05-16T21:31:39.899Z] Cleaned: templates/index.json
+[2025-05-16T21:31:39.901Z] --- Cleanup complete ---
+>>>>>>> 4fc67ce0217d012cdad2388b43905d62b9728be6
 
