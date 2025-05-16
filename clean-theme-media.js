@@ -22,6 +22,8 @@ function walk(dir, callback) {
 function cleanMediaLinks(file) {
   if (!file.endsWith('.json') && !file.endsWith('.liquid')) return;
 
+  log(`Processing: ${file}`);
+
   let content = fs.readFileSync(file, 'utf-8');
   const original = content;
 
@@ -31,10 +33,12 @@ function cleanMediaLinks(file) {
   if (content !== original) {
     fs.writeFileSync(file, content, 'utf-8');
     log(`Cleaned: ${file}`);
+  } else {
+    log(`- No changes needed: ${file}`);
   }
 }
 
 // Log session start
-log('--- Starting theme media cleanup ---');
+log('=== Starting theme media cleanup ===');
 walk(THEME_DIR, cleanMediaLinks);
-log('--- Cleanup complete ---\n');
+log('=== Cleanup complete ===\n');
