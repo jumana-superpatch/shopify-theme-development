@@ -5,3 +5,10 @@
 #	modified:   deploy-log.txt
 [2025-05-20T13:45:24.343Z] --- Cleanup complete ---
 
+[2025-05-20T13:51:04.777Z] --- Starting theme media cleanup ---
+[2025-05-20T13:51:04.832Z] No files were updated during cleanup.
+
+[2025-05-20T13:51:04.937Z] # Changes to be committed:
+#	MM	clean-theme-media.js
+[2025-05-20T13:51:04.938Z] --- Cleanup complete ---
+
