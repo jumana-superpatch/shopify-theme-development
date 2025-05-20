@@ -51,25 +51,23 @@ function cleanMediaLinks(file) {
 // Log Git-changed files before push
 function logGitChanges() {
   try {
-    // Stage changes (optional if done elsewhere)
-    execSync('git add -A', { stdio: 'ignore' });
+    const output = execSync(
+      'git show --name-status --pretty=format:"# Changes to be committed:%n"',
+      { cwd: process.cwd(), encoding: 'utf-8' }
+    );
 
-    const output = execSync('git diff --cached --name-only --diff-filter=ACMR', {
-      cwd: process.cwd(),
-      encoding: 'utf-8'
-    });
-
-    const files = output
+    const lines = output
       .split('\n')
-      .filter(f => f.trim().length > 0);
+      .filter(line => line.trim().length > 0)
+      .map(line => line.startsWith('M') || line.startsWith('A') || line.startsWith('D') ? `#\t${line}` : line);
 
-    if (files.length > 0) {
-      log(`# Changes to be committed:\n${files.map(f => `#\tmodified:   ${f}`).join('\n')}`);
+    if (lines.length > 1) {
+      log(lines.join('\n'));
     } else {
-      log('# No changes staged for commit.');
+      log('# No changes committed yet.');
     }
   } catch (err) {
-    log(`Error detecting staged files: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
+    log(`Error detecting recent commit files: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
 
