@@ -9,3 +9,11 @@
   - templates/product.json
 [2025-05-16T22:19:39.191Z] --- Cleanup complete ---
 
+[2025-05-16T22:28:06.958Z] --- Starting theme media cleanup ---
+[2025-05-16T22:28:07.001Z] No files were updated during cleanup.
+
+[2025-05-16T22:28:07.170Z] Changed files before push:
+  - deploy-log.txt
+[2025-05-16T22:28:07.321Z] No files changed in the latest commit.
+[2025-05-16T22:28:07.322Z] --- Cleanup complete ---
+
