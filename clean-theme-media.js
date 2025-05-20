@@ -51,29 +51,28 @@ function cleanMediaLinks(file) {
 // Log Git-changed files before push
 function logGitChanges() {
   try {
-    const output = execSync('git status --porcelain', {
+    // Stage changes (optional if done elsewhere)
+    execSync('git add -A', { stdio: 'ignore' });
+
+    const output = execSync('git diff --cached --name-only --diff-filter=ACMR', {
       cwd: process.cwd(),
       encoding: 'utf-8'
     });
 
-    const changedFiles = output
+    const files = output
       .split('\n')
-      .filter(Boolean)
-      .map(line => {
-        const match = line.match(/^[A-Z\?\s]{2}\s+(.+)$/);
-        return match ? match[1] : null;
-      })
-      .filter(Boolean);
+      .filter(f => f.trim().length > 0);
 
-    if (changedFiles.length > 0) {
-      log(`Changed files before push:\n${changedFiles.map(f => `  - ${f}`).join('\n')}`);
+    if (files.length > 0) {
+      log(`# Changes to be committed:\n${files.map(f => `#\tmodified:   ${f}`).join('\n')}`);
     } else {
-      log('No changed files to log.');
+      log('# No changes staged for commit.');
     }
   } catch (err) {
-    log(`Error detecting changed files: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
+    log(`Error detecting staged files: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
+
 
 // Log files changed in the latest commit
 function logLastCommitFiles() {
@@ -110,7 +109,7 @@ function logLastCommitFiles() {
     }
 
     logGitChanges();
-    logLastCommitFiles();
+    // logLastCommitFiles();
     log('--- Cleanup complete ---\n');
   } catch (err) {
     log(`Fatal error: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
