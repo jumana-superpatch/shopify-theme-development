@@ -35,3 +35,11 @@ Summary of updated files:
   M → templates/index.json
 [2025-05-20T14:08:15.376Z] --- Cleanup complete ---
 
+[2025-05-20T14:09:35.239Z] --- Starting theme media cleanup ---
+[2025-05-20T14:09:35.562Z] Current Git Changes:
+# Unstaged changes (not committed yet):
+  M → deploy-log.txt
+[2025-05-20T14:09:35.672Z] No files were updated during cleanup.
+
+[2025-05-20T14:09:35.672Z] --- Cleanup complete ---
+
