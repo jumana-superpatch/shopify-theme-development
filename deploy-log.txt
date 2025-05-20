@@ -370,3 +370,12 @@
 [2025-05-16T22:28:14.458Z] --- Cleanup complete ---
 >>>>>>> 50a414cd235bc64c35d22b75222d5498ecfa96d0
 
+[2025-05-20T13:14:47.812Z] --- Starting theme media cleanup ---
+[2025-05-20T13:14:47.947Z] No files were updated during cleanup.
+
+[2025-05-20T13:14:48.059Z] Changed files before push:
+  - deploy-log.txt
+[2025-05-20T13:14:48.175Z] Files changed in the latest commit:
+  - deploy-log.txt
+[2025-05-20T13:14:48.175Z] --- Cleanup complete ---
+
