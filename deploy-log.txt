@@ -409,3 +409,24 @@ Summary of updated files:
 
 [2025-05-20T14:14:55.384Z] --- Cleanup complete ---
 
+[2025-05-20T14:16:46.284Z] --- Starting theme media cleanup ---
+[2025-05-20T14:16:46.648Z] Current Git Changes:
+# Unstaged changes (not committed yet):
+  M → deploy-log.txt
+[2025-05-20T14:16:46.817Z] Files changed in the latest commit:
+  - clean-theme-media.js
+  - config/settings_data.json
+  - deploy-log.txt
+  - templates/index.json
+  - templates/product.json
+[2025-05-20T14:16:46.872Z] Cleaned media in: templates\index.json
+[2025-05-20T14:16:46.876Z] 
+Summary of updated files:
+  - templates\index.json
+
+[2025-05-20T14:16:47.178Z] Current Git Changes:
+# Unstaged changes (not committed yet):
+  M → deploy-log.txt
+  M → templates/index.json
+[2025-05-20T14:16:47.179Z] --- Cleanup complete ---
+
