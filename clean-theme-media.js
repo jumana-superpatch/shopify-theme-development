@@ -116,7 +116,7 @@ function logLastCommitFiles() {
     log('--- Starting theme media cleanup ---');
 
     // 1. Show all changes in the repo (history)
-    logAllChangedFilesInRepo();
+    // logAllChangedFilesInRepo();
 
     // 2. Show existing changes BEFORE cleanup
     logGitChanges();
