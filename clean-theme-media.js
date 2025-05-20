@@ -47,42 +47,66 @@ function cleanMediaLinks(file) {
   }
 }
 
-// Enhanced Git changes logger
+// Log staged and unstaged changes
 function logGitChanges() {
   try {
-    // Get staged changes
-    const staged = execSync('git diff --staged --name-status', { 
-      cwd: process.cwd(), 
-      encoding: 'utf-8' 
-    }).split('\n').filter(Boolean);
+    const staged = execSync('git diff --staged --name-status', { cwd: process.cwd(), encoding: 'utf-8' })
+      .split('\n').filter(Boolean);
+    const unstaged = execSync('git diff --name-status', { cwd: process.cwd(), encoding: 'utf-8' })
+      .split('\n').filter(Boolean);
 
-    // Get unstaged changes
-    const unstaged = execSync('git diff --name-status', { 
-      cwd: process.cwd(), 
-      encoding: 'utf-8' 
-    }).split('\n').filter(Boolean);
-
-    // Format output
     let output = [];
-    
     if (staged.length > 0) {
       output.push('# Staged changes (to be committed):');
       output.push(...staged.map(line => `  ${line.replace(/\t/g, ' → ')}`));
     }
-
     if (unstaged.length > 0) {
       output.push('# Unstaged changes (not committed yet):');
       output.push(...unstaged.map(line => `  ${line.replace(/\t/g, ' → ')}`));
     }
-
     if (output.length > 0) {
       log('Current Git Changes:\n' + output.join('\n'));
     } else {
       log('No uncommitted changes detected.');
     }
-
   } catch (err) {
     log(`Error detecting Git changes: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
+  }
+}
+
+// Log all files changed in the entire git history
+function logAllChangedFilesInRepo() {
+  try {
+    const output = execSync('git log --pretty=format: --name-only --diff-filter=AMDR', {
+      cwd: process.cwd(),
+      encoding: 'utf-8'
+    });
+    const files = Array.from(new Set(output.split('\n').map(f => f.trim()).filter(Boolean)));
+    if (files.length > 0) {
+      log(`All files ever changed in repo history:\n${files.map(f => `  - ${f}`).join('\n')}`);
+    } else {
+      log('No files have been changed in repo history.');
+    }
+  } catch (err) {
+    log(`Error detecting all changed files in repo: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
+  }
+}
+
+// Log files changed in the latest commit
+function logLastCommitFiles() {
+  try {
+    const output = execSync('git show --name-only --pretty="" HEAD', {
+      cwd: process.cwd(),
+      encoding: 'utf-8'
+    });
+    const files = output.split('\n').filter(f => f.trim().length > 0);
+    if (files.length > 0) {
+      log(`Files changed in the latest commit:\n${files.map(f => `  - ${f}`).join('\n')}`);
+    } else {
+      log('No files changed in the latest commit.');
+    }
+  } catch (err) {
+    log(`Error detecting files in the latest commit: ${err.message}\nError code: ${err.code}\nStack trace:\n${err.stack}`);
   }
 }
 
@@ -90,14 +114,20 @@ function logGitChanges() {
 (function main() {
   try {
     log('--- Starting theme media cleanup ---');
-    
-    // 1. Show existing changes BEFORE cleanup
+
+    // 1. Show all changes in the repo (history)
+    logAllChangedFilesInRepo();
+
+    // 2. Show existing changes BEFORE cleanup
     logGitChanges();
-    
-    // 2. Perform cleanup
+
+    // 3. Show files changed in the latest commit
+    logLastCommitFiles();
+
+    // 4. Perform cleanup
     walk(THEME_DIR, cleanMediaLinks);
 
-    // 3. Show changes AFTER cleanup
+    // 5. Show changes AFTER cleanup
     if (updatedFiles.length > 0) {
       log(`\nSummary of updated files:\n${updatedFiles.map(f => `  - ${f}`).join('\n')}\n`);
       logGitChanges(); // Show new changes from cleanup
